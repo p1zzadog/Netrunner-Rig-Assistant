@@ -1,0 +1,2404 @@
+var hofScrape = 
+
+[
+  {
+    "Name":"Dumpster Gamble - 1st Place - Greenlake Games Store Champion",
+    "Author":"pandapersona",
+    "Likes Favorites Comments":"244\n\t\t\t 205\n\t\t\t 69",
+    "Link":"Dumpster Gamble - 1st Place - Greenlake Games Store Champion",
+    "Link-href":"http://netrunnerdb.com/en/decklist/16055/dumpster-gamble-1st-place-greenlake-games-store-champion",
+    "Publish Date":"Feb 22, 2015"
+  },
+  {
+    "Name":"Blitz Running PPvP Kate",
+    "Author":"Calimsha",
+    "Likes Favorites Comments":"76\n\t\t\t 68\n\t\t\t 49",
+    "Link":"Blitz Running PPvP Kate",
+    "Link-href":"http://netrunnerdb.com/en/decklist/14938/blitz-running-ppvp-kate",
+    "Publish Date":"Feb 6, 2015"
+  },
+  {
+    "Name":"Angel of the Inca Cross - Oxford Store Champ Winner",
+    "Author":"Vapo",
+    "Likes Favorites Comments":"55\n\t\t\t 47\n\t\t\t 14",
+    "Link":"Angel of the Inca Cross - Oxford Store Champ Winner",
+    "Link-href":"http://netrunnerdb.com/en/decklist/17748/angel-of-the-inca-cross-oxford-store-champ-winner",
+    "Publish Date":"Mar 21, 2015"
+  },
+  {
+    "Name":"Grindstone (aka anti-Netrunner)",
+    "Author":"IonFox",
+    "Likes Favorites Comments":"55\n\t\t\t 44\n\t\t\t 27",
+    "Link":"Grindstone (aka anti-Netrunner)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/24684/grindstone-aka-anti-netrunner-",
+    "Publish Date":"Aug 10, 2015"
+  },
+  {
+    "Name":"49 Shades of Grey",
+    "Author":"LeonardQuirm",
+    "Likes Favorites Comments":"54\n\t\t\t 31\n\t\t\t 15",
+    "Link":"49 Shades of Grey",
+    "Link-href":"http://netrunnerdb.com/en/decklist/16031/49-shades-of-grey",
+    "Publish Date":"Feb 21, 2015"
+  },
+  {
+    "Name":"The Crimson-Leaves Strike, 2015 Store Championship Winner",
+    "Author":"Xie Belvoule",
+    "Likes Favorites Comments":"51\n\t\t\t 48\n\t\t\t 27",
+    "Link":"The Crimson-Leaves Strike, 2015 Store Championship Winner",
+    "Link-href":"http://netrunnerdb.com/en/decklist/16187/the-crimson-leaves-strike-2015-store-championship-winner",
+    "Publish Date":"Feb 23, 2015"
+  },
+  {
+    "Name":"T'ai Chi Ch'uan",
+    "Author":"locusshifter",
+    "Likes Favorites Comments":"220\n\t\t\t 182\n\t\t\t 73",
+    "Link":"T'ai Chi Ch'uan",
+    "Link-href":"http://netrunnerdb.com/en/decklist/13392/t-ai-chi-ch-uan",
+    "Publish Date":"Jan 13, 2015"
+  },
+  {
+    "Name":"Worlds 2014, 2nd place",
+    "Author":"Mtgred",
+    "Likes Favorites Comments":"47\n\t\t\t 41\n\t\t\t 3",
+    "Link":"Worlds 2014, 2nd place",
+    "Link-href":"http://netrunnerdb.com/en/decklist/10871/worlds-2014-2nd-place",
+    "Publish Date":"Nov 13, 2014"
+  },
+  {
+    "Name":"Chaos Thievery (Chronos Bratislava First Place)",
+    "Author":"PeekaySK",
+    "Likes Favorites Comments":"57\n\t\t\t 47\n\t\t\t 20",
+    "Link":"Chaos Thievery (Chronos Bratislava First Place)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/4181/chaos-thievery-chronos-bratislava-first-place-",
+    "Publish Date":"Apr 13, 2014"
+  },
+  {
+    "Name":"MirrorMorphHaas(1st place store championship deck 3/4/15)",
+    "Author":"John&#34;Animal&#34;McEvoy",
+    "Likes Favorites Comments":"47\n\t\t\t 32\n\t\t\t 9",
+    "Link":"MirrorMorphHaas(1st place store championship deck 3/4/15)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/17106/mirrormorphhaas-1st-place-store-championship-deck-3-4-15-",
+    "Publish Date":"Mar 10, 2015"
+  },
+  {
+    "Name":"Choir of the Dead (Deckbuilding Derezzed Episode 4)",
+    "Author":"CodeMarvelous",
+    "Likes Favorites Comments":"36\n\t\t\t 28\n\t\t\t 21",
+    "Link":"Choir of the Dead (Deckbuilding Derezzed Episode 4)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/18090/choir-of-the-dead-deckbuilding-derezzed-episode-4-",
+    "Publish Date":"Mar 28, 2015"
+  },
+  {
+    "Name":"Deadcoats",
+    "Author":"NumbersAndNoise",
+    "Likes Favorites Comments":"36\n\t\t\t 33\n\t\t\t 5",
+    "Link":"Deadcoats",
+    "Link-href":"http://netrunnerdb.com/en/decklist/9949/deadcoats",
+    "Publish Date":"Oct 19, 2014"
+  },
+  {
+    "Name":"Iain Stirling: R.E.D.",
+    "Author":"K0diak.360",
+    "Likes Favorites Comments":"73\n\t\t\t 59\n\t\t\t 16",
+    "Link":"Iain Stirling: R.E.D.",
+    "Link-href":"http://netrunnerdb.com/en/decklist/7207/iain-stirling-r-e-d-",
+    "Publish Date":"Jun 28, 2014"
+  },
+  {
+    "Name":"Waldemar HB (2x Top 8 Regionals, DMQT Winner)",
+    "Author":"krystman",
+    "Likes Favorites Comments":"237\n\t\t\t 206\n\t\t\t 58",
+    "Link":"Waldemar HB (2x Top 8 Regionals, DMQT Winner)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/20145/waldemar-hb-2x-top-8-regionals-dmqt-winner-",
+    "Publish Date":"May 3, 2015"
+  },
+  {
+    "Name":"Everything (2nd place Professor at Euregio 43 Players)",
+    "Author":"Axul",
+    "Likes Favorites Comments":"38\n\t\t\t 27\n\t\t\t 11",
+    "Link":"Everything (2nd place Professor at Euregio 43 Players)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/21217/everything-2nd-place-professor-at-euregio-43-players-",
+    "Publish Date":"May 24, 2015"
+  },
+  {
+    "Name":"It's funny when the runner can't trash a snare",
+    "Author":"Dragon53170",
+    "Likes Favorites Comments":"36\n\t\t\t 30\n\t\t\t 13",
+    "Link":"It's funny when the runner can't trash a snare",
+    "Link-href":"http://netrunnerdb.com/en/decklist/13034/it-s-funny-when-the-runner-can-t-trash-a-snare",
+    "Publish Date":"Jan 6, 2015"
+  },
+  {
+    "Name":"Starter Deck - Corp Beginner (Weyland)",
+    "Author":"Oniya",
+    "Likes Favorites Comments":"89\n\t\t\t 78\n\t\t\t 0",
+    "Link":"Starter Deck - Corp Beginner (Weyland)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/3106/starter-deck-corp-beginner-weyland-",
+    "Publish Date":"Mar 13, 2014"
+  },
+  {
+    "Name":"Noise - Schehexually Transmitted Diseases",
+    "Author":"funnyways3",
+    "Likes Favorites Comments":"39\n\t\t\t 33\n\t\t\t 17",
+    "Link":"Noise - Schehexually Transmitted Diseases",
+    "Link-href":"http://netrunnerdb.com/en/decklist/6785/noise-schehexually-transmitted-diseases",
+    "Publish Date":"Jun 15, 2014"
+  },
+  {
+    "Name":"Sly Fox v1.1 (1st place / 22 players / 5 rounds)",
+    "Author":"paddosan",
+    "Likes Favorites Comments":"37\n\t\t\t 32\n\t\t\t 8",
+    "Link":"Sly Fox v1.1 (1st place / 22 players / 5 rounds)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/11286/sly-fox-v1-1-1st-place-22-players-5-rounds-",
+    "Publish Date":"Nov 22, 2014"
+  },
+  {
+    "Name":"Siphon Everything (Universe Games Store Champ 1st Place)",
+    "Author":"Fictional",
+    "Likes Favorites Comments":"58\n\t\t\t 49\n\t\t\t 13",
+    "Link":"Siphon Everything (Universe Games Store Champ 1st Place)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/14633/siphon-everything-universe-games-store-champ-1st-place-",
+    "Publish Date":"Feb 2, 2015"
+  },
+  {
+    "Name":"NEH Butcher Shop Variant (2015 Linköping Regionals Winner)",
+    "Author":"Warpstoned",
+    "Likes Favorites Comments":"41\n\t\t\t 37\n\t\t\t 19",
+    "Link":"NEH Butcher Shop Variant (2015 Linköping Regionals Winner)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/20856/neh-butcher-shop-variant-2015-link-ping-regionals-winner-",
+    "Publish Date":"May 17, 2015"
+  },
+  {
+    "Name":"Butcher Shop v4 - 1st Place Uncle's Games SC (Redmond, WA)",
+    "Author":"jakodrako",
+    "Likes Favorites Comments":"226\n\t\t\t 202\n\t\t\t 49",
+    "Link":"Butcher Shop v4 - 1st Place Uncle's Games SC (Redmond, WA)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/16988/butcher-shop-v4-1st-place-uncle-s-games-sc-redmond-wa-",
+    "Publish Date":"Mar 8, 2015"
+  },
+  {
+    "Name":"SanSan South: Vince's Standard Stronger Together Deck",
+    "Author":"theodorelogan",
+    "Likes Favorites Comments":"37\n\t\t\t 30\n\t\t\t 16",
+    "Link":"SanSan South: Vince's Standard Stronger Together Deck",
+    "Link-href":"http://netrunnerdb.com/en/decklist/11316/sansan-south-vince-s-standard-stronger-together-deck",
+    "Publish Date":"Nov 23, 2014"
+  },
+  {
+    "Name":"Digital Marketing Specialists - MDSN Regional 1st Place",
+    "Author":"aandries",
+    "Likes Favorites Comments":"79\n\t\t\t 65\n\t\t\t 30",
+    "Link":"Digital Marketing Specialists - MDSN Regional 1st Place",
+    "Link-href":"http://netrunnerdb.com/en/decklist/21599/digital-marketing-specialists-mdsn-regional-1st-place",
+    "Publish Date":"May 31, 2015"
+  },
+  {
+    "Name":"The Grail is Yours: 1st place Stoke-On-Trent GtG Store Champ",
+    "Author":"Circadia",
+    "Likes Favorites Comments":"38\n\t\t\t 27\n\t\t\t 6",
+    "Link":"The Grail is Yours: 1st place Stoke-On-Trent GtG Store Champ",
+    "Link-href":"http://netrunnerdb.com/en/decklist/15165/the-grail-is-yours-1st-place-stoke-on-trent-gtg-store-champ",
+    "Publish Date":"Feb 8, 2015"
+  },
+  {
+    "Name":"Goodbye to You. Card Kingdom Store Championship 1st Place",
+    "Author":"afishisborn",
+    "Likes Favorites Comments":"278\n\t\t\t 225\n\t\t\t 61",
+    "Link":"Goodbye to You. Card Kingdom Store Championship 1st Place",
+    "Link-href":"http://netrunnerdb.com/en/decklist/16557/goodbye-to-you-card-kingdom-store-championship-1st-place",
+    "Publish Date":"Mar 1, 2015"
+  },
+  {
+    "Name":"Can o' Whupass",
+    "Author":"tyrellian",
+    "Likes Favorites Comments":"452\n\t\t\t 369\n\t\t\t 202",
+    "Link":"Can o' Whupass",
+    "Link-href":"http://netrunnerdb.com/en/decklist/14677/can-o-whupass",
+    "Publish Date":"Feb 3, 2015"
+  },
+  {
+    "Name":"Our Hedge Funds are Unsinkable!** 3.0",
+    "Author":"CodeMarvelous",
+    "Likes Favorites Comments":"85\n\t\t\t 62\n\t\t\t 16",
+    "Link":"Our Hedge Funds are Unsinkable!** 3.0",
+    "Link-href":"http://netrunnerdb.com/en/decklist/14686/our-hedge-funds-are-unsinkable-3-0",
+    "Publish Date":"Feb 3, 2015"
+  },
+  {
+    "Name":"Chaos without brain (1st place Polish nationals 2014)",
+    "Author":"SeIverin",
+    "Likes Favorites Comments":"36\n\t\t\t 32\n\t\t\t 14",
+    "Link":"Chaos without brain (1st place Polish nationals 2014)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/9130/chaos-without-brain-1st-place-polish-nationals-2014-",
+    "Publish Date":"Aug 31, 2014"
+  },
+  {
+    "Name":"HB Brainbuster -The Purple Jinteki - update",
+    "Author":"x3r0h0ur",
+    "Likes Favorites Comments":"39\n\t\t\t 36\n\t\t\t 3",
+    "Link":"HB Brainbuster -The Purple Jinteki - update",
+    "Link-href":"http://netrunnerdb.com/en/decklist/5785/hb-brainbuster-the-purple-jinteki-update",
+    "Publish Date":"May 19, 2014"
+  },
+  {
+    "Name":"Stark Industries: Veronica (2015 Johannesburg GNK Winner)",
+    "Author":"tuism",
+    "Likes Favorites Comments":"37\n\t\t\t 30\n\t\t\t 22",
+    "Link":"Stark Industries: Veronica (2015 Johannesburg GNK Winner)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/20866/stark-industries-veronica-2015-johannesburg-gnk-winner-",
+    "Publish Date":"May 17, 2015"
+  },
+  {
+    "Name":"Running the Rincewind Way",
+    "Author":"GreatGreedyGuts",
+    "Likes Favorites Comments":"47\n\t\t\t 40\n\t\t\t 19",
+    "Link":"Running the Rincewind Way",
+    "Link-href":"http://netrunnerdb.com/en/decklist/8313/running-the-rincewind-way",
+    "Publish Date":"Aug 6, 2014"
+  },
+  {
+    "Name":"SlySquid's Replicating Tentacles",
+    "Author":"SlySquid",
+    "Likes Favorites Comments":"67\n\t\t\t 57\n\t\t\t 37",
+    "Link":"SlySquid's Replicating Tentacles",
+    "Link-href":"http://netrunnerdb.com/en/decklist/8227/slysquid-s-replicating-tentacles",
+    "Publish Date":"Aug 3, 2014"
+  },
+  {
+    "Name":"DemolitionChess Master",
+    "Author":"x3r0h0ur",
+    "Likes Favorites Comments":"64\n\t\t\t 56\n\t\t\t 26",
+    "Link":"DemolitionChess Master",
+    "Link-href":"http://netrunnerdb.com/en/decklist/4261/demolitionchess-master",
+    "Publish Date":"Apr 16, 2014"
+  },
+  {
+    "Name":"Thug Life Leela",
+    "Author":"d23",
+    "Likes Favorites Comments":"49\n\t\t\t 40\n\t\t\t 11",
+    "Link":"Thug Life Leela",
+    "Link-href":"http://netrunnerdb.com/en/decklist/24470/thug-life-leela",
+    "Publish Date":"Aug 5, 2015"
+  },
+  {
+    "Name":"Institute of Tennis (10th place at worlds)",
+    "Author":"SeIverin",
+    "Likes Favorites Comments":"163\n\t\t\t 145\n\t\t\t 50",
+    "Link":"Institute of Tennis (10th place at worlds)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/10690/institute-of-tennis-10th-place-at-worlds-",
+    "Publish Date":"Nov 10, 2014"
+  },
+  {
+    "Name":"Transformer (2nd/48 Mead Hall MN/SC, Undefeated)",
+    "Author":"Xavier",
+    "Likes Favorites Comments":"77\n\t\t\t 65\n\t\t\t 26",
+    "Link":"Transformer (2nd/48 Mead Hall MN/SC, Undefeated)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/16145/transformer-2nd-48-mead-hall-mn-sc-undefeated-",
+    "Publish Date":"Feb 23, 2015"
+  },
+  {
+    "Name":"MaxX , SC 1st place Highlander Games (Boonton , NJ)",
+    "Author":"Vash2002",
+    "Likes Favorites Comments":"48\n\t\t\t 37\n\t\t\t 33",
+    "Link":"MaxX , SC 1st place Highlander Games (Boonton , NJ)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/15284/maxx-sc-1st-place-highlander-games-boonton-nj-",
+    "Publish Date":"Feb 9, 2015"
+  },
+  {
+    "Name":"No Time To Waste v1.3 (1st place / 22 players / 5 rounds)",
+    "Author":"paddosan",
+    "Likes Favorites Comments":"142\n\t\t\t 115\n\t\t\t 26",
+    "Link":"No Time To Waste v1.3 (1st place / 22 players / 5 rounds)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/11285/no-time-to-waste-v1-3-1st-place-22-players-5-rounds-",
+    "Publish Date":"Nov 22, 2014"
+  },
+  {
+    "Name":"New Death By a Thousand Cuts",
+    "Author":"x3r0h0ur",
+    "Likes Favorites Comments":"45\n\t\t\t 37\n\t\t\t 11",
+    "Link":"New Death By a Thousand Cuts",
+    "Link-href":"http://netrunnerdb.com/en/decklist/1422/new-death-by-a-thousand-cuts",
+    "Publish Date":"Jan 13, 2014"
+  },
+  {
+    "Name":"Faust Theory 10th verona regional",
+    "Author":"b4ralai",
+    "Likes Favorites Comments":"88\n\t\t\t 57\n\t\t\t 21",
+    "Link":"Faust Theory 10th verona regional",
+    "Link-href":"http://netrunnerdb.com/en/decklist/23912/faust-theory-10th-verona-regional",
+    "Publish Date":"Jul 20, 2015"
+  },
+  {
+    "Name":"Replicating Kills v1.0 (a  guide how to play RP properly)",
+    "Author":"Dydra",
+    "Likes Favorites Comments":"189\n\t\t\t 162\n\t\t\t 51",
+    "Link":"Replicating Kills v1.0 (a  guide how to play RP properly)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/3946/replicating-kills-v1-0-a-guide-how-to-play-rp-properly-",
+    "Publish Date":"Apr 7, 2014"
+  },
+  {
+    "Name":"Big Girls Play With Monoliths",
+    "Author":"PeekaySK",
+    "Likes Favorites Comments":"364\n\t\t\t 307\n\t\t\t 104",
+    "Link":"Big Girls Play With Monoliths",
+    "Link-href":"http://netrunnerdb.com/en/decklist/808/big-girls-play-with-monoliths",
+    "Publish Date":"Dec 6, 2013"
+  },
+  {
+    "Name":"Notorious Daily Quester",
+    "Author":"Flashfires",
+    "Likes Favorites Comments":"71\n\t\t\t 62\n\t\t\t 9",
+    "Link":"Notorious Daily Quester",
+    "Link-href":"http://netrunnerdb.com/en/decklist/5118/notorious-daily-quester",
+    "Publish Date":"May 6, 2014"
+  },
+  {
+    "Name":"Speedy Snare! Delivery Service™",
+    "Author":"shazzner",
+    "Likes Favorites Comments":"77\n\t\t\t 62\n\t\t\t 28",
+    "Link":"Speedy Snare! Delivery Service™",
+    "Link-href":"http://netrunnerdb.com/en/decklist/12035/speedy-snare-delivery-service-",
+    "Publish Date":"Dec 9, 2014"
+  },
+  {
+    "Name":"HBFA - Platinum Edition",
+    "Author":"Nordrunner",
+    "Likes Favorites Comments":"82\n\t\t\t 78\n\t\t\t 23",
+    "Link":"HBFA - Platinum Edition",
+    "Link-href":"http://netrunnerdb.com/en/decklist/7522/hbfa-platinum-edition",
+    "Publish Date":"Jul 9, 2014"
+  },
+  {
+    "Name":"The Professional - 1st Place - ANRPC - Days of Knights",
+    "Author":"CodeMarvelous",
+    "Likes Favorites Comments":"37\n\t\t\t 32\n\t\t\t 7",
+    "Link":"The Professional - 1st Place - ANRPC - Days of Knights",
+    "Link-href":"http://netrunnerdb.com/en/decklist/23914/the-professional-1st-place-anrpc-days-of-knights",
+    "Publish Date":"Jul 20, 2015"
+  },
+  {
+    "Name":"Bloodlock: The monster is now fully awake v1.00",
+    "Author":"Erik_Twice",
+    "Likes Favorites Comments":"43\n\t\t\t 38\n\t\t\t 31",
+    "Link":"Bloodlock: The monster is now fully awake v1.00",
+    "Link-href":"http://netrunnerdb.com/en/decklist/19642/bloodlock-the-monster-is-now-fully-awake-v1-00",
+    "Publish Date":"Apr 24, 2015"
+  },
+  {
+    "Name":"Clicking hell v1.3 - Store Championship winner, Chicago, IL",
+    "Author":"Daine",
+    "Likes Favorites Comments":"130\n\t\t\t 106\n\t\t\t 39",
+    "Link":"Clicking hell v1.3 - Store Championship winner, Chicago, IL",
+    "Link-href":"http://netrunnerdb.com/en/decklist/16143/clicking-hell-v1-3-store-championship-winner-chicago-il",
+    "Publish Date":"Feb 22, 2015"
+  },
+  {
+    "Name":"Freelance Burst Professor V1 (Paid in Cache)",
+    "Author":"JAK",
+    "Likes Favorites Comments":"47\n\t\t\t 37\n\t\t\t 10",
+    "Link":"Freelance Burst Professor V1 (Paid in Cache)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/9919/freelance-burst-professor-v1-paid-in-cache-",
+    "Publish Date":"Oct 18, 2014"
+  },
+  {
+    "Name":"Fugu v1.3 (2015 North Carolina Regionals - Undefeated)",
+    "Author":"Chuftbot",
+    "Likes Favorites Comments":"61\n\t\t\t 50\n\t\t\t 19",
+    "Link":"Fugu v1.3 (2015 North Carolina Regionals - Undefeated)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/23884/fugu-v1-3-2015-north-carolina-regionals-undefeated-",
+    "Publish Date":"Jul 19, 2015"
+  },
+  {
+    "Name":"Valtman (SoCal regional 1st place)",
+    "Author":"tmoiynmwg",
+    "Likes Favorites Comments":"52\n\t\t\t 44\n\t\t\t 19",
+    "Link":"Valtman (SoCal regional 1st place)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/24190/valtman-socal-regional-1st-place-",
+    "Publish Date":"Jul 28, 2015"
+  },
+  {
+    "Name":"Blue Mushin (Worlds, 28th place)",
+    "Author":"Axlotl",
+    "Likes Favorites Comments":"66\n\t\t\t 51\n\t\t\t 14",
+    "Link":"Blue Mushin (Worlds, 28th place)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/10674/blue-mushin-worlds-28th-place-",
+    "Publish Date":"Nov 9, 2014"
+  },
+  {
+    "Name":"Bag of Tricks - 2nd Oslo Regionals, Undefeated 8-0, top seed",
+    "Author":"Elusive",
+    "Likes Favorites Comments":"83\n\t\t\t 67\n\t\t\t 25",
+    "Link":"Bag of Tricks - 2nd Oslo Regionals, Undefeated 8-0, top seed",
+    "Link-href":"http://netrunnerdb.com/en/decklist/22727/bag-of-tricks-2nd-oslo-regionals-undefeated-8-0-top-seed",
+    "Publish Date":"Jun 23, 2015"
+  },
+  {
+    "Name":"It's a bit elaborate for a toothpick",
+    "Author":"kage02",
+    "Likes Favorites Comments":"78\n\t\t\t 70\n\t\t\t 15",
+    "Link":"It's a bit elaborate for a toothpick",
+    "Link-href":"http://netrunnerdb.com/en/decklist/1897/it-s-a-bit-elaborate-for-a-toothpick",
+    "Publish Date":"Feb 1, 2014"
+  },
+  {
+    "Name":"Turn of the Sentry.",
+    "Author":"Heartthrob",
+    "Likes Favorites Comments":"62\n\t\t\t 52\n\t\t\t 22",
+    "Link":"Turn of the Sentry.",
+    "Link-href":"http://netrunnerdb.com/en/decklist/3082/turn-of-the-sentry-",
+    "Publish Date":"Mar 12, 2014"
+  },
+  {
+    "Name":"[Nerdrunners] Cloud Heist Geist v1.1",
+    "Author":"markusfriend",
+    "Likes Favorites Comments":"37\n\t\t\t 34\n\t\t\t 31",
+    "Link":"[Nerdrunners] Cloud Heist Geist v1.1",
+    "Link-href":"http://netrunnerdb.com/en/decklist/23059/-nerdrunners-cloud-heist-geist-v1-1",
+    "Publish Date":"Jul 1, 2015"
+  },
+  {
+    "Name":"Keystone v2.1",
+    "Author":"ItJustGotRielle",
+    "Likes Favorites Comments":"98\n\t\t\t 84\n\t\t\t 33",
+    "Link":"Keystone v2.1",
+    "Link-href":"http://netrunnerdb.com/en/decklist/13123/keystone-v2-1",
+    "Publish Date":"Jan 8, 2015"
+  },
+  {
+    "Name":"Barrier Bay",
+    "Author":"HopelessHeretic",
+    "Likes Favorites Comments":"46\n\t\t\t 36\n\t\t\t 25",
+    "Link":"Barrier Bay",
+    "Link-href":"http://netrunnerdb.com/en/decklist/26049/barrier-bay",
+    "Publish Date":"Sep 8, 2015"
+  },
+  {
+    "Name":"Off-Campus Iain: Connections Accelerated",
+    "Author":"Tozar",
+    "Likes Favorites Comments":"42\n\t\t\t 32\n\t\t\t 16",
+    "Link":"Off-Campus Iain: Connections Accelerated",
+    "Link-href":"http://netrunnerdb.com/en/decklist/21330/off-campus-iain-connections-accelerated",
+    "Publish Date":"May 27, 2015"
+  },
+  {
+    "Name":"Leela Finds a Way MKE Store Champion - 13-1",
+    "Author":"aandries",
+    "Likes Favorites Comments":"42\n\t\t\t 38\n\t\t\t 9",
+    "Link":"Leela Finds a Way MKE Store Champion - 13-1",
+    "Link-href":"http://netrunnerdb.com/en/decklist/16103/leela-finds-a-way-mke-store-champion-13-1",
+    "Publish Date":"Feb 22, 2015"
+  },
+  {
+    "Name":"Worlds 2014 #1 Seed - Kate's Toolbox",
+    "Author":"spags",
+    "Likes Favorites Comments":"60\n\t\t\t 50\n\t\t\t 14",
+    "Link":"Worlds 2014 #1 Seed - Kate's Toolbox",
+    "Link-href":"http://netrunnerdb.com/en/decklist/10700/worlds-2014-1-seed-kate-s-toolbox",
+    "Publish Date":"Nov 10, 2014"
+  },
+  {
+    "Name":"Quinns' Tier One Gagarin Deck",
+    "Author":"Quinns",
+    "Likes Favorites Comments":"109\n\t\t\t 77\n\t\t\t 34",
+    "Link":"Quinns' Tier One Gagarin Deck",
+    "Link-href":"http://netrunnerdb.com/en/decklist/15062/quinns-tier-one-gagarin-deck",
+    "Publish Date":"Feb 7, 2015"
+  },
+  {
+    "Name":"Yellow Jackets 2.0 - (NGN Priority Run - 1st, SC - 2nd )",
+    "Author":"akonnick",
+    "Likes Favorites Comments":"68\n\t\t\t 54\n\t\t\t 26",
+    "Link":"Yellow Jackets 2.0 - (NGN Priority Run - 1st, SC - 2nd )",
+    "Link-href":"http://netrunnerdb.com/en/decklist/13772/yellow-jackets-2-0-ngn-priority-run-1st-sc-2nd-",
+    "Publish Date":"Jan 20, 2015"
+  },
+  {
+    "Name":"Post clot/blacklist Blitz Running PPvP Kate",
+    "Author":"Calimsha",
+    "Likes Favorites Comments":"44\n\t\t\t 37\n\t\t\t 12",
+    "Link":"Post clot/blacklist Blitz Running PPvP Kate",
+    "Link-href":"http://netrunnerdb.com/en/decklist/20749/post-clot-blacklist-blitz-running-ppvp-kate",
+    "Publish Date":"May 14, 2015"
+  },
+  {
+    "Name":"Wake up in a dumpster",
+    "Author":"Diegofsv",
+    "Likes Favorites Comments":"38\n\t\t\t 28\n\t\t\t 23",
+    "Link":"Wake up in a dumpster",
+    "Link-href":"http://netrunnerdb.com/en/decklist/9602/wake-up-in-a-dumpster",
+    "Publish Date":"Sep 16, 2014"
+  },
+  {
+    "Name":"Cutting Edge Research",
+    "Author":"CodeMarvelous",
+    "Likes Favorites Comments":"40\n\t\t\t 34\n\t\t\t 14",
+    "Link":"Cutting Edge Research",
+    "Link-href":"http://netrunnerdb.com/en/decklist/19208/cutting-edge-research",
+    "Publish Date":"Apr 16, 2015"
+  },
+  {
+    "Name":"Just Ice & Agendas 2: This Time, It's Not Just Ice & Agendas",
+    "Author":"LSK",
+    "Likes Favorites Comments":"146\n\t\t\t 110\n\t\t\t 34",
+    "Link":"Just Ice & Agendas 2: This Time, It's Not Just Ice & Agendas",
+    "Link-href":"http://netrunnerdb.com/en/decklist/13577/just-ice-agendas-2-this-time-it-s-not-just-ice-agendas",
+    "Publish Date":"Jan 16, 2015"
+  },
+  {
+    "Name":"Scorched Imaging",
+    "Author":"PeekaySK",
+    "Likes Favorites Comments":"121\n\t\t\t 102\n\t\t\t 43",
+    "Link":"Scorched Imaging",
+    "Link-href":"http://netrunnerdb.com/en/decklist/4745/scorched-imaging",
+    "Publish Date":"Apr 29, 2014"
+  },
+  {
+    "Name":"Accelerated Beta Team",
+    "Author":"chill84",
+    "Likes Favorites Comments":"49\n\t\t\t 42\n\t\t\t 3",
+    "Link":"Accelerated Beta Team",
+    "Link-href":"http://netrunnerdb.com/en/decklist/26383/accelerated-beta-team",
+    "Publish Date":"Sep 16, 2015"
+  },
+  {
+    "Name":"Reina Roja's Draining Machine",
+    "Author":"Kable",
+    "Likes Favorites Comments":"45\n\t\t\t 37\n\t\t\t 15",
+    "Link":"Reina Roja's Draining Machine",
+    "Link-href":"http://netrunnerdb.com/en/decklist/906/reina-roja-s-draining-machine",
+    "Publish Date":"Dec 10, 2013"
+  },
+  {
+    "Name":"Macho Man Reina Savage",
+    "Author":"itsbigfoot",
+    "Likes Favorites Comments":"80\n\t\t\t 65\n\t\t\t 15",
+    "Link":"Macho Man Reina Savage",
+    "Link-href":"http://netrunnerdb.com/en/decklist/17247/macho-man-reina-savage",
+    "Publish Date":"Mar 12, 2015"
+  },
+  {
+    "Name":"Bioroid Efficiency v2.0",
+    "Author":"db0",
+    "Likes Favorites Comments":"47\n\t\t\t 41\n\t\t\t 8",
+    "Link":"Bioroid Efficiency v2.0",
+    "Link-href":"http://netrunnerdb.com/en/decklist/306/bioroid-efficiency-v2-0",
+    "Publish Date":"Oct 23, 2013"
+  },
+  {
+    "Name":"Meteor Storm! (Winner, GNK Card Kingdom Seattle, 09/28/2014)",
+    "Author":"talking_chicken",
+    "Likes Favorites Comments":"49\n\t\t\t 39\n\t\t\t 11",
+    "Link":"Meteor Storm! (Winner, GNK Card Kingdom Seattle, 09/28/2014)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/9734/meteor-storm-winner-gnk-card-kingdom-seattle-09-28-2014-",
+    "Publish Date":"Oct 14, 2014"
+  },
+  {
+    "Name":"Vivat Academia",
+    "Author":"PeekaySK",
+    "Likes Favorites Comments":"49\n\t\t\t 45\n\t\t\t 21",
+    "Link":"Vivat Academia",
+    "Link-href":"http://netrunnerdb.com/en/decklist/7546/vivat-academia",
+    "Publish Date":"Jul 10, 2014"
+  },
+  {
+    "Name":"The Psychopath",
+    "Author":"Nordrunner",
+    "Likes Favorites Comments":"44\n\t\t\t 39\n\t\t\t 18",
+    "Link":"The Psychopath",
+    "Link-href":"http://netrunnerdb.com/en/decklist/7521/the-psychopath",
+    "Publish Date":"Jul 9, 2014"
+  },
+  {
+    "Name":"The Red Queen Hypothesis",
+    "Author":"GotHat",
+    "Likes Favorites Comments":"54\n\t\t\t 46\n\t\t\t 22",
+    "Link":"The Red Queen Hypothesis",
+    "Link-href":"http://netrunnerdb.com/en/decklist/12874/the-red-queen-hypothesis",
+    "Publish Date":"Jan 1, 2015"
+  },
+  {
+    "Name":"SlySquids \"Mother F****** Deck\" v1.1",
+    "Author":"SlySquid",
+    "Likes Favorites Comments":"107\n\t\t\t 93\n\t\t\t 78",
+    "Link":"SlySquids \"Mother F****** Deck\" v1.1",
+    "Link-href":"http://netrunnerdb.com/en/decklist/11852/slysquids-mother-f-deck-v1-1",
+    "Publish Date":"Dec 4, 2014"
+  },
+  {
+    "Name":"Leela Patel and the pragmatic Keyhole",
+    "Author":"omegalife2002",
+    "Likes Favorites Comments":"65\n\t\t\t 54\n\t\t\t 19",
+    "Link":"Leela Patel and the pragmatic Keyhole",
+    "Link-href":"http://netrunnerdb.com/en/decklist/11143/leela-patel-and-the-pragmatic-keyhole",
+    "Publish Date":"Nov 18, 2014"
+  },
+  {
+    "Name":"Supermodernism (1st Place @ The Yellow King)",
+    "Author":"CrimsonWraith",
+    "Likes Favorites Comments":"84\n\t\t\t 74\n\t\t\t 29",
+    "Link":"Supermodernism (1st Place @ The Yellow King)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/2512/supermodernism-1st-place-the-yellow-king-",
+    "Publish Date":"Feb 22, 2014"
+  },
+  {
+    "Name":"The Spiteful Mind",
+    "Author":"CodeMarvelous",
+    "Likes Favorites Comments":"73\n\t\t\t 59\n\t\t\t 18",
+    "Link":"The Spiteful Mind",
+    "Link-href":"http://netrunnerdb.com/en/decklist/21432/the-spiteful-mind",
+    "Publish Date":"May 29, 2015"
+  },
+  {
+    "Name":"Drip Andy - Store Championship Winner 2/15 Meeples Games",
+    "Author":"bluebird503",
+    "Likes Favorites Comments":"47\n\t\t\t 39\n\t\t\t 15",
+    "Link":"Drip Andy - Store Championship Winner 2/15 Meeples Games",
+    "Link-href":"http://netrunnerdb.com/en/decklist/15647/drip-andy-store-championship-winner-2-15-meeples-games",
+    "Publish Date":"Feb 15, 2015"
+  },
+  {
+    "Name":"The Thing That Should Not Be",
+    "Author":"omegalife2002",
+    "Likes Favorites Comments":"297\n\t\t\t 254\n\t\t\t 40",
+    "Link":"The Thing That Should Not Be",
+    "Link-href":"http://netrunnerdb.com/en/decklist/5136/the-thing-that-should-not-be",
+    "Publish Date":"May 6, 2014"
+  },
+  {
+    "Name":"Swiss Army Whizzard",
+    "Author":"PeekaySK",
+    "Likes Favorites Comments":"152\n\t\t\t 129\n\t\t\t 23",
+    "Link":"Swiss Army Whizzard",
+    "Link-href":"http://netrunnerdb.com/en/decklist/1003/swiss-army-whizzard",
+    "Publish Date":"Dec 16, 2013"
+  },
+  {
+    "Name":"The Red Coats",
+    "Author":"Nordrunner",
+    "Likes Favorites Comments":"209\n\t\t\t 185\n\t\t\t 16",
+    "Link":"The Red Coats",
+    "Link-href":"http://netrunnerdb.com/en/decklist/5438/the-red-coats",
+    "Publish Date":"May 11, 2014"
+  },
+  {
+    "Name":"The Amazing Six-Click Clone",
+    "Author":"killionaire",
+    "Likes Favorites Comments":"89\n\t\t\t 76\n\t\t\t 16",
+    "Link":"The Amazing Six-Click Clone",
+    "Link-href":"http://netrunnerdb.com/en/decklist/4847/the-amazing-six-click-clone",
+    "Publish Date":"May 1, 2014"
+  },
+  {
+    "Name":"Haas is Boss: Top 8 UK Nationals 2015",
+    "Author":"Bobdole",
+    "Likes Favorites Comments":"38\n\t\t\t 21\n\t\t\t 6",
+    "Link":"Haas is Boss: Top 8 UK Nationals 2015",
+    "Link-href":"http://netrunnerdb.com/en/decklist/21642/haas-is-boss-top-8-uk-nationals-2015",
+    "Publish Date":"Jun 1, 2015"
+  },
+  {
+    "Name":"HB Brainbuster - Store Champion Clem's Fort Wayne IN",
+    "Author":"x3r0h0ur",
+    "Likes Favorites Comments":"131\n\t\t\t 118\n\t\t\t 44",
+    "Link":"HB Brainbuster - Store Champion Clem's Fort Wayne IN",
+    "Link-href":"http://netrunnerdb.com/en/decklist/2816/hb-brainbuster-store-champion-clem-s-fort-wayne-in",
+    "Publish Date":"Mar 2, 2014"
+  },
+  {
+    "Name":"Psychic Blast",
+    "Author":"db0",
+    "Likes Favorites Comments":"41\n\t\t\t 28\n\t\t\t 10",
+    "Link":"Psychic Blast",
+    "Link-href":"http://netrunnerdb.com/en/decklist/5143/psychic-blast",
+    "Publish Date":"May 6, 2014"
+  },
+  {
+    "Name":"Haarpsichord Doomsday 2.3- Public Sympathy Shield 1st place",
+    "Author":"Isvan",
+    "Likes Favorites Comments":"77\n\t\t\t 62\n\t\t\t 37",
+    "Link":"Haarpsichord Doomsday 2.3- Public Sympathy Shield 1st place",
+    "Link-href":"http://netrunnerdb.com/en/decklist/25391/haarpsichord-doomsday-2-3-public-sympathy-shield-1st-place-",
+    "Publish Date":"Aug 23, 2015"
+  },
+  {
+    "Name":"“But he was still hungry.”",
+    "Author":"sohum",
+    "Likes Favorites Comments":"37\n\t\t\t 27\n\t\t\t 7",
+    "Link":"“But he was still hungry.”",
+    "Link-href":"http://netrunnerdb.com/en/decklist/25821/-but-he-was-still-hungry-",
+    "Publish Date":"Sep 3, 2015"
+  },
+  {
+    "Name":"Project Iapetus: Preston 2015 Store Champ Winner",
+    "Author":"metagaia",
+    "Likes Favorites Comments":"45\n\t\t\t 35\n\t\t\t 15",
+    "Link":"Project Iapetus: Preston 2015 Store Champ Winner",
+    "Link-href":"http://netrunnerdb.com/en/decklist/16568/project-iapetus-preston-2015-store-champ-winner",
+    "Publish Date":"Mar 1, 2015"
+  },
+  {
+    "Name":"Sterling Supplied - 1st Place Firestorm Cardiff SC",
+    "Author":"Dr_Madhatter",
+    "Likes Favorites Comments":"48\n\t\t\t 41\n\t\t\t 24",
+    "Link":"Sterling Supplied - 1st Place Firestorm Cardiff SC",
+    "Link-href":"http://netrunnerdb.com/en/decklist/17099/sterling-supplied-1st-place-firestorm-cardiff-sc-",
+    "Publish Date":"Mar 10, 2015"
+  },
+  {
+    "Name":"Install ALL THE THINGS!(1st Seed Wausau Regional, 6th place)",
+    "Author":"Sotomatic",
+    "Likes Favorites Comments":"80\n\t\t\t 68\n\t\t\t 30",
+    "Link":"Install ALL THE THINGS!(1st Seed Wausau Regional, 6th place)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/20528/install-all-the-things-1st-seed-wausau-regional-6th-place-",
+    "Publish Date":"May 10, 2015"
+  },
+  {
+    "Name":"Bizzare RP Rush Deck AKA Tampa Rush",
+    "Author":"Velo",
+    "Likes Favorites Comments":"40\n\t\t\t 27\n\t\t\t 7",
+    "Link":"Bizzare RP Rush Deck AKA Tampa Rush",
+    "Link-href":"http://netrunnerdb.com/en/decklist/26266/bizzare-rp-rush-deck-aka-tampa-rush",
+    "Publish Date":"Sep 13, 2015"
+  },
+  {
+    "Name":"Virulent Saxum (1st Place @ Enchanted Grounds)",
+    "Author":"CrimsonWraith",
+    "Likes Favorites Comments":"46\n\t\t\t 38\n\t\t\t 18",
+    "Link":"Virulent Saxum (1st Place @ Enchanted Grounds)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/4372/virulent-saxum-1st-place-enchanted-grounds-",
+    "Publish Date":"Apr 19, 2014"
+  },
+  {
+    "Name":"Cerebral Hive of Giraffes (Chronos Bratislava First Place)",
+    "Author":"PeekaySK",
+    "Likes Favorites Comments":"79\n\t\t\t 68\n\t\t\t 31",
+    "Link":"Cerebral Hive of Giraffes (Chronos Bratislava First Place)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/4182/cerebral-hive-of-giraffes-chronos-bratislava-first-place-",
+    "Publish Date":"Apr 13, 2014"
+  },
+  {
+    "Name":"Jinteki Personal Evolution: Garden of Mines",
+    "Author":"mauxfire",
+    "Likes Favorites Comments":"154\n\t\t\t 128\n\t\t\t 22",
+    "Link":"Jinteki Personal Evolution: Garden of Mines",
+    "Link-href":"http://netrunnerdb.com/en/decklist/7932/jinteki-personal-evolution-garden-of-mines",
+    "Publish Date":"Jul 26, 2014"
+  },
+  {
+    "Name":"Doran's Blades (5th Place Arlington Plugged-In)",
+    "Author":"CrimsonWraith",
+    "Likes Favorites Comments":"105\n\t\t\t 85\n\t\t\t 14",
+    "Link":"Doran's Blades (5th Place Arlington Plugged-In)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/521/doran-s-blades-5th-place-arlington-plugged-in-",
+    "Publish Date":"Nov 13, 2013"
+  },
+  {
+    "Name":"Theory of Simplicity 4.0",
+    "Author":"Feisty",
+    "Likes Favorites Comments":"112\n\t\t\t 91\n\t\t\t 31",
+    "Link":"Theory of Simplicity 4.0",
+    "Link-href":"http://netrunnerdb.com/en/decklist/26645/theory-of-simplicity-4-0",
+    "Publish Date":"Sep 22, 2015"
+  },
+  {
+    "Name":"Knightman!",
+    "Author":"djackman",
+    "Likes Favorites Comments":"41\n\t\t\t 36\n\t\t\t 20",
+    "Link":"Knightman!",
+    "Link-href":"http://netrunnerdb.com/en/decklist/2109/knightman-",
+    "Publish Date":"Feb 10, 2014"
+  },
+  {
+    "Name":"No Sleep Natman (Atman Nasir primer / guide)",
+    "Author":"Contrast",
+    "Likes Favorites Comments":"201\n\t\t\t 171\n\t\t\t 91",
+    "Link":"No Sleep Natman (Atman Nasir primer / guide)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/10162/no-sleep-natman-atman-nasir-primer-guide-",
+    "Publish Date":"Oct 25, 2014"
+  },
+  {
+    "Name":"Praise the Sun! 2.0",
+    "Author":"CodeMarvelous",
+    "Likes Favorites Comments":"88\n\t\t\t 70\n\t\t\t 22",
+    "Link":"Praise the Sun! 2.0",
+    "Link-href":"http://netrunnerdb.com/en/decklist/26385/praise-the-sun-2-0",
+    "Publish Date":"Sep 16, 2015"
+  },
+  {
+    "Name":"The Signature Kate, France national winner",
+    "Author":"Calimsha",
+    "Likes Favorites Comments":"48\n\t\t\t 42\n\t\t\t 16",
+    "Link":"The Signature Kate, France national winner",
+    "Link-href":"http://netrunnerdb.com/en/decklist/21565/the-signature-kate-france-national-winner",
+    "Publish Date":"May 31, 2015"
+  },
+  {
+    "Name":"Red Coats 3.0",
+    "Author":"Nordrunner",
+    "Likes Favorites Comments":"109\n\t\t\t 92\n\t\t\t 19",
+    "Link":"Red Coats 3.0",
+    "Link-href":"http://netrunnerdb.com/en/decklist/21359/red-coats-3-0",
+    "Publish Date":"May 27, 2015"
+  },
+  {
+    "Name":"Typical PPVP Kate (1st place at 2015 National)",
+    "Author":"lucasli",
+    "Likes Favorites Comments":"62\n\t\t\t 49\n\t\t\t 15",
+    "Link":"Typical PPVP Kate (1st place at 2015 National)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/24504/typical-ppvp-kate-1st-place-at-2015-national-",
+    "Publish Date":"Aug 5, 2015"
+  },
+  {
+    "Name":"Acceptable Losses (Iceless Argus)",
+    "Author":"CommissarFeesh",
+    "Likes Favorites Comments":"40\n\t\t\t 25\n\t\t\t 14",
+    "Link":"Acceptable Losses (Iceless Argus)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/22918/acceptable-losses-iceless-argus-",
+    "Publish Date":"Jun 28, 2015"
+  },
+  {
+    "Name":"Space Tricks - Leisure Games London, 1st place",
+    "Author":"bewnt",
+    "Likes Favorites Comments":"66\n\t\t\t 53\n\t\t\t 3",
+    "Link":"Space Tricks - Leisure Games London, 1st place",
+    "Link-href":"http://netrunnerdb.com/en/decklist/15697/space-tricks-leisure-games-london-1st-place",
+    "Publish Date":"Feb 17, 2015"
+  },
+  {
+    "Name":"Psike! (Nisei at Worlds)",
+    "Author":"Kevoun",
+    "Likes Favorites Comments":"36\n\t\t\t 36\n\t\t\t 14",
+    "Link":"Psike! (Nisei at Worlds)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/10791/psike-nisei-at-worlds-",
+    "Publish Date":"Nov 11, 2014"
+  },
+  {
+    "Name":"Dinomite v2 (1st, Auckland Vagabond Store Championship)",
+    "Author":"Fjord",
+    "Likes Favorites Comments":"54\n\t\t\t 46\n\t\t\t 11",
+    "Link":"Dinomite v2 (1st, Auckland Vagabond Store Championship)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/5755/dinomite-v2-1st-auckland-vagabond-store-championship-",
+    "Publish Date":"May 18, 2014"
+  },
+  {
+    "Name":"Switchblade Gabe 401 Games Winning Runner List (Dec. 7 14)",
+    "Author":"d1en",
+    "Likes Favorites Comments":"75\n\t\t\t 64\n\t\t\t 16",
+    "Link":"Switchblade Gabe 401 Games Winning Runner List (Dec. 7 14)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/11990/switchblade-gabe-401-games-winning-runner-list-dec-7-14-",
+    "Publish Date":"Dec 8, 2014"
+  },
+  {
+    "Name":"Beyond Earth v1.8",
+    "Author":"paddosan",
+    "Likes Favorites Comments":"50\n\t\t\t 39\n\t\t\t 13",
+    "Link":"Beyond Earth v1.8",
+    "Link-href":"http://netrunnerdb.com/en/decklist/15701/beyond-earth-v1-8",
+    "Publish Date":"Feb 17, 2015"
+  },
+  {
+    "Name":"The Tower of Babel",
+    "Author":"Contrast",
+    "Likes Favorites Comments":"66\n\t\t\t 56\n\t\t\t 17",
+    "Link":"The Tower of Babel",
+    "Link-href":"http://netrunnerdb.com/en/decklist/10453/the-tower-of-babel",
+    "Publish Date":"Nov 2, 2014"
+  },
+  {
+    "Name":"Wotub 1.3",
+    "Author":"weezeface",
+    "Likes Favorites Comments":"37\n\t\t\t 27\n\t\t\t 32",
+    "Link":"Wotub 1.3",
+    "Link-href":"http://netrunnerdb.com/en/decklist/15504/wotub-1-3",
+    "Publish Date":"Feb 13, 2015"
+  },
+  {
+    "Name":"Red Dress Kit; 2nd place, Unique Gifts & Games Store Champio",
+    "Author":"daytodave",
+    "Likes Favorites Comments":"100\n\t\t\t 80\n\t\t\t 33",
+    "Link":"Red Dress Kit; 2nd place, Unique Gifts & Games Store Champio",
+    "Link-href":"http://netrunnerdb.com/en/decklist/15265/red-dress-kit-2nd-place-unique-gifts-games-store-champio",
+    "Publish Date":"Feb 9, 2015"
+  },
+  {
+    "Name":"Japanese Journalism",
+    "Author":"Heartthrob",
+    "Likes Favorites Comments":"41\n\t\t\t 29\n\t\t\t 10",
+    "Link":"Japanese Journalism",
+    "Link-href":"http://netrunnerdb.com/en/decklist/2399/japanese-journalism",
+    "Publish Date":"Feb 19, 2014"
+  },
+  {
+    "Name":"Seamus' Stealth Kit (4th place UK Nationals)",
+    "Author":"Seamus",
+    "Likes Favorites Comments":"65\n\t\t\t 48\n\t\t\t 62",
+    "Link":"Seamus' Stealth Kit (4th place UK Nationals)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/21621/seamus-stealth-kit-4th-place-uk-nationals-",
+    "Publish Date":"Jun 1, 2015"
+  },
+  {
+    "Name":"Homeless Kasparov",
+    "Author":"db0",
+    "Likes Favorites Comments":"45\n\t\t\t 36\n\t\t\t 15",
+    "Link":"Homeless Kasparov",
+    "Link-href":"http://netrunnerdb.com/en/decklist/1357/homeless-kasparov",
+    "Publish Date":"Jan 10, 2014"
+  },
+  {
+    "Name":"ZER0 C00L - 1st Place Toronto @ Snakes & Lattes",
+    "Author":"MaximumSushi",
+    "Likes Favorites Comments":"38\n\t\t\t 32\n\t\t\t 7",
+    "Link":"ZER0 C00L - 1st Place Toronto @ Snakes & Lattes",
+    "Link-href":"http://netrunnerdb.com/en/decklist/18961/zer0-c00l-1st-place-toronto-snakes-lattes",
+    "Publish Date":"Apr 11, 2015"
+  },
+  {
+    "Name":"Qimpossible 1st Place Petrie's Family Games SC",
+    "Author":"TheRyanBurke",
+    "Likes Favorites Comments":"179\n\t\t\t 162\n\t\t\t 45",
+    "Link":"Qimpossible 1st Place Petrie's Family Games SC",
+    "Link-href":"http://netrunnerdb.com/en/decklist/18233/qimpossible-1st-place-petrie-s-family-games-sc",
+    "Publish Date":"Mar 30, 2015"
+  },
+  {
+    "Name":"Noisey Find – 4th Place Uroboros Cup (UK Games Expo 2014)",
+    "Author":"evilgaz",
+    "Likes Favorites Comments":"58\n\t\t\t 53\n\t\t\t 22",
+    "Link":"Noisey Find – 4th Place Uroboros Cup (UK Games Expo 2014)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/6326/noisey-find-4th-place-uroboros-cup-uk-games-expo-2014-",
+    "Publish Date":"Jun 2, 2014"
+  },
+  {
+    "Name":"My knight In \"Deep red\" armor",
+    "Author":"John&#34;Animal&#34;McEvoy",
+    "Likes Favorites Comments":"46\n\t\t\t 38\n\t\t\t 12",
+    "Link":"My knight In \"Deep red\" armor",
+    "Link-href":"http://netrunnerdb.com/en/decklist/16670/my-knight-in-deep-red-armor",
+    "Publish Date":"Mar 2, 2015"
+  },
+  {
+    "Name":"Solid State Noise",
+    "Author":"travisrchance",
+    "Likes Favorites Comments":"41\n\t\t\t 28\n\t\t\t 43",
+    "Link":"Solid State Noise",
+    "Link-href":"http://netrunnerdb.com/en/decklist/19844/solid-state-noise",
+    "Publish Date":"Apr 28, 2015"
+  },
+  {
+    "Name":"Starter Deck - Runner Beginner",
+    "Author":"Oniya",
+    "Likes Favorites Comments":"103\n\t\t\t 86\n\t\t\t 2",
+    "Link":"Starter Deck - Runner Beginner",
+    "Link-href":"http://netrunnerdb.com/en/decklist/3105/starter-deck-runner-beginner",
+    "Publish Date":"Mar 13, 2014"
+  },
+  {
+    "Name":"TWIY Astrobiotics",
+    "Author":"Lysander",
+    "Likes Favorites Comments":"173\n\t\t\t 154\n\t\t\t 48",
+    "Link":"TWIY Astrobiotics",
+    "Link-href":"http://netrunnerdb.com/en/decklist/2957/twiy-astrobiotics",
+    "Publish Date":"Mar 8, 2014"
+  },
+  {
+    "Name":"Untrashable v3",
+    "Author":"db0",
+    "Likes Favorites Comments":"40\n\t\t\t 33\n\t\t\t 35",
+    "Link":"Untrashable v3",
+    "Link-href":"http://netrunnerdb.com/en/decklist/1268/untrashable-v3",
+    "Publish Date":"Jan 4, 2014"
+  },
+  {
+    "Name":"2014 Colorado Regional - 1st & 5th Place Corp",
+    "Author":"ColoradoNetrunner",
+    "Likes Favorites Comments":"39\n\t\t\t 34\n\t\t\t 5",
+    "Link":"2014 Colorado Regional - 1st & 5th Place Corp",
+    "Link-href":"http://netrunnerdb.com/en/decklist/5822/2014-colorado-regional-1st-5th-place-corp",
+    "Publish Date":"May 20, 2014"
+  },
+  {
+    "Name":"Scholar of Stealth: 1st Place Uroboros Cup 2015 (67 players)",
+    "Author":"NicoleyMoley",
+    "Likes Favorites Comments":"101\n\t\t\t 79\n\t\t\t 35",
+    "Link":"Scholar of Stealth: 1st Place Uroboros Cup 2015 (67 players)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/21626/scholar-of-stealth-1st-place-uroboros-cup-2015-67-players-",
+    "Publish Date":"Jun 1, 2015"
+  },
+  {
+    "Name":"Kit RD rush",
+    "Author":"x3r0h0ur",
+    "Likes Favorites Comments":"45\n\t\t\t 36\n\t\t\t 24",
+    "Link":"Kit RD rush",
+    "Link-href":"http://netrunnerdb.com/en/decklist/504/kit-rd-rush",
+    "Publish Date":"Nov 12, 2013"
+  },
+  {
+    "Name":"Snitches Get Riches (Blackguard Nasir)",
+    "Author":"DrunkenGineer",
+    "Likes Favorites Comments":"43\n\t\t\t 42\n\t\t\t 24",
+    "Link":"Snitches Get Riches (Blackguard Nasir)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/8321/snitches-get-riches-blackguard-nasir-",
+    "Publish Date":"Aug 6, 2014"
+  },
+  {
+    "Name":"N3X7_RU5H.D3C",
+    "Author":"BahnCalamari",
+    "Likes Favorites Comments":"134\n\t\t\t 108\n\t\t\t 37",
+    "Link":"N3X7_RU5H.D3C",
+    "Link-href":"http://netrunnerdb.com/en/decklist/19803/n3x7-ru5h-d3c",
+    "Publish Date":"Apr 27, 2015"
+  },
+  {
+    "Name":"1441 - Titan Transnational Hyper Fast Advance",
+    "Author":"marsellus",
+    "Likes Favorites Comments":"36\n\t\t\t 25\n\t\t\t 13",
+    "Link":"1441 - Titan Transnational Hyper Fast Advance",
+    "Link-href":"http://netrunnerdb.com/en/decklist/21821/1441-titan-transnational-hyper-fast-advance",
+    "Publish Date":"Jun 4, 2015"
+  },
+  {
+    "Name":"The Killer Wizzard - 2015 Atlanta Regional 5th Place",
+    "Author":"Chris_Yang",
+    "Likes Favorites Comments":"41\n\t\t\t 38\n\t\t\t 21",
+    "Link":"The Killer Wizzard - 2015 Atlanta Regional 5th Place",
+    "Link-href":"http://netrunnerdb.com/en/decklist/20667/the-killer-wizzard-2015-atlanta-regional-5th-place",
+    "Publish Date":"May 13, 2015"
+  },
+  {
+    "Name":"NBN Grail/Midway",
+    "Author":"Spaceman_Spiff",
+    "Likes Favorites Comments":"123\n\t\t\t 96\n\t\t\t 27",
+    "Link":"NBN Grail/Midway",
+    "Link-href":"http://netrunnerdb.com/en/decklist/11578/nbn-grail-midway",
+    "Publish Date":"Nov 29, 2014"
+  },
+  {
+    "Name":"Deep Space Tax - 1st Place - Greenlake Games Store Champions",
+    "Author":"pandapersona",
+    "Likes Favorites Comments":"56\n\t\t\t 49\n\t\t\t 10",
+    "Link":"Deep Space Tax - 1st Place - Greenlake Games Store Champions",
+    "Link-href":"http://netrunnerdb.com/en/decklist/16056/deep-space-tax-1st-place-greenlake-games-store-champions",
+    "Publish Date":"Feb 22, 2015"
+  },
+  {
+    "Name":"P.h.D. - Pawnshop Hayley Destruction",
+    "Author":"CodeMarvelous",
+    "Likes Favorites Comments":"63\n\t\t\t 47\n\t\t\t 23",
+    "Link":"P.h.D. - Pawnshop Hayley Destruction",
+    "Link-href":"http://netrunnerdb.com/en/decklist/19791/p-h-d-pawnshop-hayley-destruction",
+    "Publish Date":"Apr 27, 2015"
+  },
+  {
+    "Name":"Brain Fart v3.2 Games of Berkeley Feb Tournament 1st Place",
+    "Author":"TheYoYoGuy",
+    "Likes Favorites Comments":"56\n\t\t\t 49\n\t\t\t 8",
+    "Link":"Brain Fart v3.2 Games of Berkeley Feb Tournament 1st Place",
+    "Link-href":"http://netrunnerdb.com/en/decklist/15329/brain-fart-v3-2-games-of-berkeley-feb-tournament-1st-place",
+    "Publish Date":"Feb 10, 2015"
+  },
+  {
+    "Name":"Hypermodernism 3.1: You're Going on the List.",
+    "Author":"raveladvice",
+    "Likes Favorites Comments":"40\n\t\t\t 34\n\t\t\t 13",
+    "Link":"Hypermodernism 3.1: You're Going on the List.",
+    "Link-href":"http://netrunnerdb.com/en/decklist/24580/hypermodernism-3-1-you-re-going-on-the-list-",
+    "Publish Date":"Aug 8, 2015"
+  },
+  {
+    "Name":"'Unbroken' - No Icebreakers",
+    "Author":"RetVersus",
+    "Likes Favorites Comments":"100\n\t\t\t 73\n\t\t\t 12",
+    "Link":"'Unbroken' - No Icebreakers",
+    "Link-href":"http://netrunnerdb.com/en/decklist/25087/-unbroken-no-icebreakers",
+    "Publish Date":"Aug 17, 2015"
+  },
+  {
+    "Name":"Valencia \"Postal\"—2nd Place Store Championship (Troy, IL",
+    "Author":"MmmBraaains",
+    "Likes Favorites Comments":"71\n\t\t\t 63\n\t\t\t 28",
+    "Link":"Valencia \"Postal\"—2nd Place Store Championship (Troy, IL",
+    "Link-href":"http://netrunnerdb.com/en/decklist/14536/valencia-postal-2nd-place-store-championship-troy-il",
+    "Publish Date":"Feb 1, 2015"
+  },
+  {
+    "Name":"The Invincible Whizzard (with comprehensive piloting guide)",
+    "Author":"Solforger",
+    "Likes Favorites Comments":"43\n\t\t\t 29\n\t\t\t 7",
+    "Link":"The Invincible Whizzard (with comprehensive piloting guide)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/4060/the-invincible-whizzard-with-comprehensive-piloting-guide-",
+    "Publish Date":"Apr 9, 2014"
+  },
+  {
+    "Name":"MaxX Three-Time Store Champ Top 4 Deck",
+    "Author":"travisrchance",
+    "Likes Favorites Comments":"54\n\t\t\t 47\n\t\t\t 22",
+    "Link":"MaxX Three-Time Store Champ Top 4 Deck",
+    "Link-href":"http://netrunnerdb.com/en/decklist/16141/maxx-three-time-store-champ-top-4-deck",
+    "Publish Date":"Feb 22, 2015"
+  },
+  {
+    "Name":"'Roid Rage 1st Place Petrie's Family Games SC",
+    "Author":"TheRyanBurke",
+    "Likes Favorites Comments":"56\n\t\t\t 49\n\t\t\t 30",
+    "Link":"'Roid Rage 1st Place Petrie's Family Games SC",
+    "Link-href":"http://netrunnerdb.com/en/decklist/18235/-roid-rage-1st-place-petrie-s-family-games-sc",
+    "Publish Date":"Mar 30, 2015"
+  },
+  {
+    "Name":"Bloodlock: An unexpected monster v0.99",
+    "Author":"Erik_Twice",
+    "Likes Favorites Comments":"126\n\t\t\t 108\n\t\t\t 63",
+    "Link":"Bloodlock: An unexpected monster v0.99",
+    "Link-href":"http://netrunnerdb.com/en/decklist/17830/bloodlock-an-unexpected-monster-v0-99",
+    "Publish Date":"Mar 23, 2015"
+  },
+  {
+    "Name":"Transcendence",
+    "Author":"ExplodyCat",
+    "Likes Favorites Comments":"43\n\t\t\t 37\n\t\t\t 19",
+    "Link":"Transcendence",
+    "Link-href":"http://netrunnerdb.com/en/decklist/7991/transcendence",
+    "Publish Date":"Jul 27, 2014"
+  },
+  {
+    "Name":"Fucking Gong Show",
+    "Author":"/tg/PlaysNetrunner",
+    "Likes Favorites Comments":"38\n\t\t\t 27\n\t\t\t 28",
+    "Link":"Fucking Gong Show",
+    "Link-href":"http://netrunnerdb.com/en/decklist/8995/fucking-gong-show",
+    "Publish Date":"Aug 26, 2014"
+  },
+  {
+    "Name":"Our Hedge Funds are Unsinkable!** 4.0",
+    "Author":"CodeMarvelous",
+    "Likes Favorites Comments":"41\n\t\t\t 32\n\t\t\t 22",
+    "Link":"Our Hedge Funds are Unsinkable!** 4.0",
+    "Link-href":"http://netrunnerdb.com/en/decklist/15212/our-hedge-funds-are-unsinkable-4-0",
+    "Publish Date":"Feb 9, 2015"
+  },
+  {
+    "Name":"Cloud Cap Store Championship 3/14/2015 1st Place: B-God",
+    "Author":"nobodyhasthis",
+    "Likes Favorites Comments":"60\n\t\t\t 46\n\t\t\t 14",
+    "Link":"Cloud Cap Store Championship 3/14/2015 1st Place: B-God",
+    "Link-href":"http://netrunnerdb.com/en/decklist/17390/cloud-cap-store-championship-3-14-2015-1st-place-b-god",
+    "Publish Date":"Mar 15, 2015"
+  },
+  {
+    "Name":"ChaosDataV.100 (2 time 1st place store championship deck)",
+    "Author":"John&#34;Animal&#34;McEvoy",
+    "Likes Favorites Comments":"70\n\t\t\t 58\n\t\t\t 30",
+    "Link":"ChaosDataV.100 (2 time 1st place store championship deck)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/17626/chaosdatav-100-2-time-1st-place-store-championship-deck-",
+    "Publish Date":"Mar 19, 2015"
+  },
+  {
+    "Name":"RP: F*** Anarch! (Winter Store Champ 1st place)",
+    "Author":"omegalife2002",
+    "Likes Favorites Comments":"41\n\t\t\t 35\n\t\t\t 11",
+    "Link":"RP: F*** Anarch! (Winter Store Champ 1st place)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/14762/rp-f-anarch-winter-store-champ-1st-place-",
+    "Publish Date":"Feb 4, 2015"
+  },
+  {
+    "Name":"N.E.A.R.P.A.D",
+    "Author":"Toomin",
+    "Likes Favorites Comments":"165\n\t\t\t 144\n\t\t\t 28",
+    "Link":"N.E.A.R.P.A.D",
+    "Link-href":"http://netrunnerdb.com/en/decklist/8916/n-e-a-r-p-a-d",
+    "Publish Date":"Aug 24, 2014"
+  },
+  {
+    "Name":"Portland Regionals 1st Place Runner: V-God",
+    "Author":"nobodyhasthis",
+    "Likes Favorites Comments":"49\n\t\t\t 40\n\t\t\t 11",
+    "Link":"Portland Regionals 1st Place Runner: V-God",
+    "Link-href":"http://netrunnerdb.com/en/decklist/22001/portland-regionals-1st-place-runner-v-god",
+    "Publish Date":"Jun 8, 2015"
+  },
+  {
+    "Name":"Cerebral Giraffes (Vienna Store Champs First Place)",
+    "Author":"PeekaySK",
+    "Likes Favorites Comments":"50\n\t\t\t 47\n\t\t\t 17",
+    "Link":"Cerebral Giraffes (Vienna Store Champs First Place)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/3381/cerebral-giraffes-vienna-store-champs-first-place-",
+    "Publish Date":"Mar 22, 2014"
+  },
+  {
+    "Name":"Bang bang (you shut me down) - Eindhoven Regionals 1st place",
+    "Author":"michiel.questier",
+    "Likes Favorites Comments":"62\n\t\t\t 45\n\t\t\t 9",
+    "Link":"Bang bang (you shut me down) - Eindhoven Regionals 1st place",
+    "Link-href":"http://netrunnerdb.com/en/decklist/22351/bang-bang-you-shut-me-down-eindhoven-regionals-1st-place",
+    "Publish Date":"Jun 14, 2015"
+  },
+  {
+    "Name":"Six-Point Exploding Heart Technique",
+    "Author":"Ber",
+    "Likes Favorites Comments":"197\n\t\t\t 160\n\t\t\t 66",
+    "Link":"Six-Point Exploding Heart Technique",
+    "Link-href":"http://netrunnerdb.com/en/decklist/19187/six-point-exploding-heart-technique",
+    "Publish Date":"Apr 15, 2015"
+  },
+  {
+    "Name":"Leela - Endless Waltz v5 (Sheffield Regional Winner)",
+    "Author":"Cerberus",
+    "Likes Favorites Comments":"164\n\t\t\t 131\n\t\t\t 31",
+    "Link":"Leela - Endless Waltz v5 (Sheffield Regional Winner)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/20850/leela-endless-waltz-v5-sheffield-regional-winner-",
+    "Publish Date":"May 17, 2015"
+  },
+  {
+    "Name":"NEXT King of England v6",
+    "Author":"magikot",
+    "Likes Favorites Comments":"39\n\t\t\t 30\n\t\t\t 16",
+    "Link":"NEXT King of England v6",
+    "Link-href":"http://netrunnerdb.com/en/decklist/20340/next-king-of-england-v6",
+    "Publish Date":"May 6, 2015"
+  },
+  {
+    "Name":"Helios v2.5 - Top 16 NorCal Regionals",
+    "Author":"llama66613",
+    "Likes Favorites Comments":"42\n\t\t\t 39\n\t\t\t 14",
+    "Link":"Helios v2.5 - Top 16 NorCal Regionals",
+    "Link-href":"http://netrunnerdb.com/en/decklist/21523/helios-v2-5-top-16-norcal-regionals",
+    "Publish Date":"May 30, 2015"
+  },
+  {
+    "Name":"Institute of Tennis (1st place Polish nationals 2014)",
+    "Author":"SeIverin",
+    "Likes Favorites Comments":"56\n\t\t\t 53\n\t\t\t 28",
+    "Link":"Institute of Tennis (1st place Polish nationals 2014)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/9131/institute-of-tennis-1st-place-polish-nationals-2014-",
+    "Publish Date":"Aug 31, 2014"
+  },
+  {
+    "Name":"Knights of Taxation (1st, store champ, Jan 2015, Montreal)",
+    "Author":"semaphores",
+    "Likes Favorites Comments":"37\n\t\t\t 21\n\t\t\t 16",
+    "Link":"Knights of Taxation (1st, store champ, Jan 2015, Montreal)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/13686/knights-of-taxation-1st-store-champ-jan-2015-montreal-",
+    "Publish Date":"Jan 19, 2015"
+  },
+  {
+    "Name":"Stealth Replicayley 1.0 (2nd Seed Tulsa Regional, 7th place)",
+    "Author":"dodgepong",
+    "Likes Favorites Comments":"73\n\t\t\t 59\n\t\t\t 22",
+    "Link":"Stealth Replicayley 1.0 (2nd Seed Tulsa Regional, 7th place)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/20203/stealth-replicayley-1-0-2nd-seed-tulsa-regional-7th-place-",
+    "Publish Date":"May 4, 2015"
+  },
+  {
+    "Name":"Mushin Upgrades",
+    "Author":"JackMade",
+    "Likes Favorites Comments":"101\n\t\t\t 86\n\t\t\t 36",
+    "Link":"Mushin Upgrades",
+    "Link-href":"http://netrunnerdb.com/en/decklist/6167/mushin-upgrades",
+    "Publish Date":"May 28, 2014"
+  },
+  {
+    "Name":"Geist Gives it Two Thumbs Up",
+    "Author":"CodeMarvelous",
+    "Likes Favorites Comments":"38\n\t\t\t 31\n\t\t\t 20",
+    "Link":"Geist Gives it Two Thumbs Up",
+    "Link-href":"http://netrunnerdb.com/en/decklist/24777/geist-gives-it-two-thumbs-up",
+    "Publish Date":"Aug 12, 2015"
+  },
+  {
+    "Name":"San Antonio Regional - First place Runner Deck: Magical Kate",
+    "Author":"HallucinogenicApplesauce",
+    "Likes Favorites Comments":"39\n\t\t\t 32\n\t\t\t 7",
+    "Link":"San Antonio Regional - First place Runner Deck: Magical Kate",
+    "Link-href":"http://netrunnerdb.com/en/decklist/6511/san-antonio-regional-first-place-runner-deck-magical-kate",
+    "Publish Date":"Jun 8, 2014"
+  },
+  {
+    "Name":"Soul Siphon: 1st Place, undefeated, Uncle's Games, Bellevue",
+    "Author":"CJFM",
+    "Likes Favorites Comments":"180\n\t\t\t 148\n\t\t\t 28",
+    "Link":"Soul Siphon: 1st Place, undefeated, Uncle's Games, Bellevue",
+    "Link-href":"http://netrunnerdb.com/en/decklist/17417/soul-siphon-1st-place-undefeated-uncle-s-games-bellevue",
+    "Publish Date":"Mar 15, 2015"
+  },
+  {
+    "Name":"And4omeda",
+    "Author":"Nordrunner",
+    "Likes Favorites Comments":"98\n\t\t\t 77\n\t\t\t 42",
+    "Link":"And4omeda",
+    "Link-href":"http://netrunnerdb.com/en/decklist/14970/and4omeda",
+    "Publish Date":"Feb 6, 2015"
+  },
+  {
+    "Name":"Blackguard of the Red Queen - version 2.0",
+    "Author":"Heartthrob",
+    "Likes Favorites Comments":"64\n\t\t\t 58\n\t\t\t 11",
+    "Link":"Blackguard of the Red Queen - version 2.0",
+    "Link-href":"http://netrunnerdb.com/en/decklist/2769/blackguard-of-the-red-queen-version-2-0",
+    "Publish Date":"Mar 1, 2014"
+  },
+  {
+    "Name":"DONUTS!  2nd Place Atlanta Regional Runner deck",
+    "Author":"kevingoes",
+    "Likes Favorites Comments":"96\n\t\t\t 79\n\t\t\t 27",
+    "Link":"DONUTS!  2nd Place Atlanta Regional Runner deck",
+    "Link-href":"http://netrunnerdb.com/en/decklist/6496/donuts-2nd-place-atlanta-regional-runner-deck",
+    "Publish Date":"Jun 7, 2014"
+  },
+  {
+    "Name":"Haarpsichord Doomsday",
+    "Author":"Isvan",
+    "Likes Favorites Comments":"45\n\t\t\t 26\n\t\t\t 25",
+    "Link":"Haarpsichord Doomsday",
+    "Link-href":"http://netrunnerdb.com/en/decklist/24236/haarpsichord-doomsday",
+    "Publish Date":"Jul 29, 2015"
+  },
+  {
+    "Name":"IT WAS ME, AUSTIN, IT WAS ME ALL ALONG v0.8",
+    "Author":"Shiiuga",
+    "Likes Favorites Comments":"41\n\t\t\t 31\n\t\t\t 15",
+    "Link":"IT WAS ME, AUSTIN, IT WAS ME ALL ALONG v0.8",
+    "Link-href":"http://netrunnerdb.com/en/decklist/22534/it-was-me-austin-it-was-me-all-along-v0-8",
+    "Publish Date":"Jun 18, 2015"
+  },
+  {
+    "Name":"Dinomite (1st, Auckland Chronos Protocol)",
+    "Author":"Fjord",
+    "Likes Favorites Comments":"65\n\t\t\t 56\n\t\t\t 18",
+    "Link":"Dinomite (1st, Auckland Chronos Protocol)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/4715/dinomite-1st-auckland-chronos-protocol-",
+    "Publish Date":"Apr 28, 2014"
+  },
+  {
+    "Name":"Killing me softly (a paintbrush & a dagger)",
+    "Author":"Heartthrob",
+    "Likes Favorites Comments":"126\n\t\t\t 112\n\t\t\t 38",
+    "Link":"Killing me softly (a paintbrush & a dagger)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/3840/killing-me-softly-a-paintbrush-a-dagger-",
+    "Publish Date":"Apr 3, 2014"
+  },
+  {
+    "Name":"Soooooo Hunngrryyy! - 1st Place Store Championship, Brisbane",
+    "Author":"stuology",
+    "Likes Favorites Comments":"57\n\t\t\t 47\n\t\t\t 15",
+    "Link":"Soooooo Hunngrryyy! - 1st Place Store Championship, Brisbane",
+    "Link-href":"http://netrunnerdb.com/en/decklist/16449/soooooo-hunngrryyy-1st-place-store-championship-brisbane",
+    "Publish Date":"Feb 27, 2015"
+  },
+  {
+    "Name":"I Prepaid For This Motherf***ing Event",
+    "Author":"akonnick",
+    "Likes Favorites Comments":"106\n\t\t\t 81\n\t\t\t 54",
+    "Link":"I Prepaid For This Motherf***ing Event",
+    "Link-href":"http://netrunnerdb.com/en/decklist/14180/i-prepaid-for-this-motherf-ing-event",
+    "Publish Date":"Jan 27, 2015"
+  },
+  {
+    "Name":"Geist: You're are doing it wrong!",
+    "Author":"mrdudesir",
+    "Likes Favorites Comments":"76\n\t\t\t 58\n\t\t\t 38",
+    "Link":"Geist: You're are doing it wrong!",
+    "Link-href":"http://netrunnerdb.com/en/decklist/23258/geist-you-re-are-doing-it-wrong-",
+    "Publish Date":"Jul 5, 2015"
+  },
+  {
+    "Name":"Tournament-Winning Decklist: Keystone v2.0",
+    "Author":"ItJustGotRielle",
+    "Likes Favorites Comments":"207\n\t\t\t 179\n\t\t\t 55",
+    "Link":"Tournament-Winning Decklist: Keystone v2.0",
+    "Link-href":"http://netrunnerdb.com/en/decklist/10206/tournament-winning-decklist-keystone-v2-0",
+    "Publish Date":"Oct 26, 2014"
+  },
+  {
+    "Name":"Blue Sun Grail Ice - The Winning Agenda Episode 9",
+    "Author":"DonutTaganes",
+    "Likes Favorites Comments":"56\n\t\t\t 45\n\t\t\t 17",
+    "Link":"Blue Sun Grail Ice - The Winning Agenda Episode 9",
+    "Link-href":"http://netrunnerdb.com/en/decklist/12271/blue-sun-grail-ice-the-winning-agenda-episode-9",
+    "Publish Date":"Dec 14, 2014"
+  },
+  {
+    "Name":"IGrinder (Store Championship Undefeated)",
+    "Author":"arccollie",
+    "Likes Favorites Comments":"86\n\t\t\t 76\n\t\t\t 17",
+    "Link":"IGrinder (Store Championship Undefeated)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/16947/igrinder-store-championship-undefeated-",
+    "Publish Date":"Mar 7, 2015"
+  },
+  {
+    "Name":"SlySquids Dinner Party v1.0",
+    "Author":"SlySquid",
+    "Likes Favorites Comments":"39\n\t\t\t 36\n\t\t\t 46",
+    "Link":"SlySquids Dinner Party v1.0",
+    "Link-href":"http://netrunnerdb.com/en/decklist/11436/slysquids-dinner-party-v1-0",
+    "Publish Date":"Nov 26, 2014"
+  },
+  {
+    "Name":"Argus: Threatening Your Security (Gamers Den Store Champ, 1s",
+    "Author":"Fictional",
+    "Likes Favorites Comments":"112\n\t\t\t 90\n\t\t\t 23",
+    "Link":"Argus: Threatening Your Security (Gamers Den Store Champ, 1s",
+    "Link-href":"http://netrunnerdb.com/en/decklist/15249/argus-threatening-your-security-gamers-den-store-champ-1s",
+    "Publish Date":"Feb 9, 2015"
+  },
+  {
+    "Name":"Hammer to Fall - Leisure Games, London 3rd Place",
+    "Author":"MasterAir",
+    "Likes Favorites Comments":"58\n\t\t\t 44\n\t\t\t 13",
+    "Link":"Hammer to Fall - Leisure Games, London 3rd Place",
+    "Link-href":"http://netrunnerdb.com/en/decklist/15594/hammer-to-fall-leisure-games-london-3rd-place",
+    "Publish Date":"Feb 15, 2015"
+  },
+  {
+    "Name":"NBN Yellow Jackets 1st + 2nd at San Antonio Regionals",
+    "Author":"itsbigfoot",
+    "Likes Favorites Comments":"41\n\t\t\t 38\n\t\t\t 6",
+    "Link":"NBN Yellow Jackets 1st + 2nd at San Antonio Regionals",
+    "Link-href":"http://netrunnerdb.com/en/decklist/6509/nbn-yellow-jackets-1st-2nd-at-san-antonio-regionals",
+    "Publish Date":"Jun 8, 2014"
+  },
+  {
+    "Name":"Deus Ex - Polish Nationals Winner",
+    "Author":"prozz",
+    "Likes Favorites Comments":"80\n\t\t\t 68\n\t\t\t 26",
+    "Link":"Deus Ex - Polish Nationals Winner",
+    "Link-href":"http://netrunnerdb.com/en/decklist/25677/deus-ex-polish-nationals-winner",
+    "Publish Date":"Aug 30, 2015"
+  },
+  {
+    "Name":"Total Denial Forever",
+    "Author":"killionaire",
+    "Likes Favorites Comments":"45\n\t\t\t 40\n\t\t\t 12",
+    "Link":"Total Denial Forever",
+    "Link-href":"http://netrunnerdb.com/en/decklist/8178/total-denial-forever",
+    "Publish Date":"Aug 1, 2014"
+  },
+  {
+    "Name":"Noise Worlds",
+    "Author":"x3r0h0ur",
+    "Likes Favorites Comments":"44\n\t\t\t 40\n\t\t\t 6",
+    "Link":"Noise Worlds",
+    "Link-href":"http://netrunnerdb.com/en/decklist/10654/noise-worlds",
+    "Publish Date":"Nov 8, 2014"
+  },
+  {
+    "Name":"Copenhagen Regionals 1st place - RP ELP",
+    "Author":"JakeHelms",
+    "Likes Favorites Comments":"43\n\t\t\t 40\n\t\t\t 8",
+    "Link":"Copenhagen Regionals 1st place - RP ELP",
+    "Link-href":"http://netrunnerdb.com/en/decklist/20194/copenhagen-regionals-1st-place-rp-elp",
+    "Publish Date":"May 4, 2015"
+  },
+  {
+    "Name":"The Crusade (Exeter Store Champ Winning Corp)",
+    "Author":"Cerberus",
+    "Likes Favorites Comments":"57\n\t\t\t 47\n\t\t\t 10",
+    "Link":"The Crusade (Exeter Store Champ Winning Corp)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/13997/the-crusade-exeter-store-champ-winning-corp-",
+    "Publish Date":"Jan 25, 2015"
+  },
+  {
+    "Name":"Moonbase Alpha",
+    "Author":"Snake Eyes",
+    "Likes Favorites Comments":"149\n\t\t\t 115\n\t\t\t 22",
+    "Link":"Moonbase Alpha",
+    "Link-href":"http://netrunnerdb.com/en/decklist/12733/moonbase-alpha",
+    "Publish Date":"Dec 27, 2014"
+  },
+  {
+    "Name":"Lanri 2.0 (SoCal regional 1st place)",
+    "Author":"tmoiynmwg",
+    "Likes Favorites Comments":"71\n\t\t\t 53\n\t\t\t 19",
+    "Link":"Lanri 2.0 (SoCal regional 1st place)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/24256/lanri-2-0-socal-regional-1st-place-",
+    "Publish Date":"Jul 30, 2015"
+  },
+  {
+    "Name":"Strasbourg Store Champ 1st place",
+    "Author":"sirprim",
+    "Likes Favorites Comments":"64\n\t\t\t 57\n\t\t\t 14",
+    "Link":"Strasbourg Store Champ 1st place",
+    "Link-href":"http://netrunnerdb.com/en/decklist/2291/strasbourg-store-champ-1st-place",
+    "Publish Date":"Feb 16, 2014"
+  },
+  {
+    "Name":"When Bioroids Attack (Oslo Store Championship)",
+    "Author":"Kamalisk",
+    "Likes Favorites Comments":"51\n\t\t\t 41\n\t\t\t 5",
+    "Link":"When Bioroids Attack (Oslo Store Championship)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/2990/when-bioroids-attack-oslo-store-championship-",
+    "Publish Date":"Mar 9, 2014"
+  },
+  {
+    "Name":"gotta go hemo (2014 Portland Regional 2nd Place)",
+    "Author":"nobodyhasthis",
+    "Likes Favorites Comments":"72\n\t\t\t 61\n\t\t\t 24",
+    "Link":"gotta go hemo (2014 Portland Regional 2nd Place)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/5456/gotta-go-hemo-2014-portland-regional-2nd-place-",
+    "Publish Date":"May 11, 2014"
+  },
+  {
+    "Name":"Anatomy of Anarchy",
+    "Author":"ColoradoNetrunner",
+    "Likes Favorites Comments":"282\n\t\t\t 249\n\t\t\t 45",
+    "Link":"Anatomy of Anarchy",
+    "Link-href":"http://netrunnerdb.com/en/decklist/5823/anatomy-of-anarchy",
+    "Publish Date":"May 20, 2014"
+  },
+  {
+    "Name":"Iain's Creepy Sleepover",
+    "Author":"CapAp",
+    "Likes Favorites Comments":"101\n\t\t\t 85\n\t\t\t 48",
+    "Link":"Iain's Creepy Sleepover",
+    "Link-href":"http://netrunnerdb.com/en/decklist/26062/iain-s-creepy-sleepover",
+    "Publish Date":"Sep 8, 2015"
+  },
+  {
+    "Name":"Red Queen's Master Key",
+    "Author":"CodeMarvelous",
+    "Likes Favorites Comments":"81\n\t\t\t 67\n\t\t\t 30",
+    "Link":"Red Queen's Master Key",
+    "Link-href":"http://netrunnerdb.com/en/decklist/1812/red-queen-s-master-key",
+    "Publish Date":"Jan 29, 2014"
+  },
+  {
+    "Name":"F is for Flip",
+    "Author":"tiedyedvortex",
+    "Likes Favorites Comments":"150\n\t\t\t 89\n\t\t\t 10",
+    "Link":"F is for Flip",
+    "Link-href":"http://netrunnerdb.com/en/decklist/19215/f-is-for-flip",
+    "Publish Date":"Apr 16, 2015"
+  },
+  {
+    "Name":"Hayley: Friend to the Lizards",
+    "Author":"lolpaca",
+    "Likes Favorites Comments":"58\n\t\t\t 50\n\t\t\t 31",
+    "Link":"Hayley: Friend to the Lizards",
+    "Link-href":"http://netrunnerdb.com/en/decklist/23113/hayley-friend-to-the-lizards",
+    "Publish Date":"Jul 2, 2015"
+  },
+  {
+    "Name":"Pancake Noise, Tulsa Regionals 2015 1st place Winner",
+    "Author":"siahofmars",
+    "Likes Favorites Comments":"51\n\t\t\t 42\n\t\t\t 15",
+    "Link":"Pancake Noise, Tulsa Regionals 2015 1st place Winner",
+    "Link-href":"http://netrunnerdb.com/en/decklist/21919/pancake-noise-tulsa-regionals-2015-1st-place-winner",
+    "Publish Date":"Jun 5, 2015"
+  },
+  {
+    "Name":"Eternal Sunshine of the Siphoned Account v1.5",
+    "Author":"paddosan",
+    "Likes Favorites Comments":"41\n\t\t\t 32\n\t\t\t 23",
+    "Link":"Eternal Sunshine of the Siphoned Account v1.5",
+    "Link-href":"http://netrunnerdb.com/en/decklist/26339/eternal-sunshine-of-the-siphoned-account-v1-5",
+    "Publish Date":"Sep 15, 2015"
+  },
+  {
+    "Name":"HB FA O&C Streetcar - 1st Place @ Covenant Store SC",
+    "Author":"squash957",
+    "Likes Favorites Comments":"58\n\t\t\t 46\n\t\t\t 15",
+    "Link":"HB FA O&C Streetcar - 1st Place @ Covenant Store SC",
+    "Link-href":"http://netrunnerdb.com/en/decklist/17240/hb-fa-o-c-streetcar-1st-place-covenant-store-sc",
+    "Publish Date":"Mar 12, 2015"
+  },
+  {
+    "Name":"Supermodernism v2",
+    "Author":"Alsciende",
+    "Likes Favorites Comments":"145\n\t\t\t 118\n\t\t\t 5",
+    "Link":"Supermodernism v2",
+    "Link-href":"http://netrunnerdb.com/en/decklist/350/supermodernism-v2",
+    "Publish Date":"Oct 29, 2013"
+  },
+  {
+    "Name":"Endless Waltz v4 (1st place at 3 Store Championships)",
+    "Author":"Cerberus",
+    "Likes Favorites Comments":"122\n\t\t\t 105\n\t\t\t 26",
+    "Link":"Endless Waltz v4 (1st place at 3 Store Championships)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/17065/endless-waltz-v4-1st-place-at-3-store-championships-",
+    "Publish Date":"Mar 9, 2015"
+  },
+  {
+    "Name":"Genes to Die For! v.1.1",
+    "Author":"licoricemaniac",
+    "Likes Favorites Comments":"50\n\t\t\t 41\n\t\t\t 17",
+    "Link":"Genes to Die For! v.1.1",
+    "Link-href":"http://netrunnerdb.com/en/decklist/12570/genes-to-die-for-v-1-1",
+    "Publish Date":"Dec 22, 2014"
+  },
+  {
+    "Name":"It's a GameDay for Bagbiter, 2nd Place Polish Nationals",
+    "Author":"Marcheva",
+    "Likes Favorites Comments":"44\n\t\t\t 36\n\t\t\t 8",
+    "Link":"It's a GameDay for Bagbiter, 2nd Place Polish Nationals",
+    "Link-href":"http://netrunnerdb.com/en/decklist/25699/it-s-a-gameday-for-bagbiter-2nd-place-polish-nationals",
+    "Publish Date":"Aug 31, 2015"
+  },
+  {
+    "Name":"Kelf's \"Swift Shadow-Lock\"",
+    "Author":"Kelfecil",
+    "Likes Favorites Comments":"81\n\t\t\t 54\n\t\t\t 21",
+    "Link":"Kelf's \"Swift Shadow-Lock\"",
+    "Link-href":"http://netrunnerdb.com/en/decklist/23288/kelf-s-swift-shadow-lock-",
+    "Publish Date":"Jul 5, 2015"
+  },
+  {
+    "Name":"Director Haas Glacier (1st Place Fat Ogre Store Championship",
+    "Author":"Darkshift07",
+    "Likes Favorites Comments":"64\n\t\t\t 53\n\t\t\t 50",
+    "Link":"Director Haas Glacier (1st Place Fat Ogre Store Championship",
+    "Link-href":"http://netrunnerdb.com/en/decklist/15839/director-haas-glacier-1st-place-fat-ogre-store-championship",
+    "Publish Date":"Feb 19, 2015"
+  },
+  {
+    "Name":"When the Flash Wears Yellow! V.2 (Undefeated Bratislava Regi",
+    "Author":"benticurus",
+    "Likes Favorites Comments":"232\n\t\t\t 199\n\t\t\t 61",
+    "Link":"When the Flash Wears Yellow! V.2 (Undefeated Bratislava Regi",
+    "Link-href":"http://netrunnerdb.com/en/decklist/22037/when-the-flash-wears-yellow-v-2-undefeated-bratislava-regi",
+    "Publish Date":"Jun 8, 2015"
+  },
+  {
+    "Name":"The Solution (Worlds 3rd place runner deck)",
+    "Author":"tmoiynmwg",
+    "Likes Favorites Comments":"136\n\t\t\t 111\n\t\t\t 10",
+    "Link":"The Solution (Worlds 3rd place runner deck)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/11014/the-solution-worlds-3rd-place-runner-deck-",
+    "Publish Date":"Nov 16, 2014"
+  },
+  {
+    "Name":"Chaos without brain (10th place at worlds)",
+    "Author":"SeIverin",
+    "Likes Favorites Comments":"55\n\t\t\t 48\n\t\t\t 22",
+    "Link":"Chaos without brain (10th place at worlds)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/10691/chaos-without-brain-10th-place-at-worlds-",
+    "Publish Date":"Nov 10, 2014"
+  },
+  {
+    "Name":"Noise Sauce",
+    "Author":"CodeMarvelous",
+    "Likes Favorites Comments":"96\n\t\t\t 87\n\t\t\t 26",
+    "Link":"Noise Sauce",
+    "Link-href":"http://netrunnerdb.com/en/decklist/8527/noise-sauce",
+    "Publish Date":"Aug 13, 2014"
+  },
+  {
+    "Name":"Paige Me Red and Call Me Valencia - London Regional 2nd",
+    "Author":"imrahil",
+    "Likes Favorites Comments":"142\n\t\t\t 117\n\t\t\t 45",
+    "Link":"Paige Me Red and Call Me Valencia - London Regional 2nd",
+    "Link-href":"http://netrunnerdb.com/en/decklist/19404/paige-me-red-and-call-me-valencia-london-regional-2nd",
+    "Publish Date":"Apr 20, 2015"
+  },
+  {
+    "Name":"SlySquids 'Mother F****** Deck' (Store Championship winner)",
+    "Author":"SlySquid",
+    "Likes Favorites Comments":"238\n\t\t\t 216\n\t\t\t 120",
+    "Link":"SlySquids 'Mother F****** Deck' (Store Championship winner)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/14503/slysquids-mother-f-deck-store-championship-winner-",
+    "Publish Date":"Feb 1, 2015"
+  },
+  {
+    "Name":"Uncorrodable",
+    "Author":"CrimsonWraith",
+    "Likes Favorites Comments":"70\n\t\t\t 62\n\t\t\t 19",
+    "Link":"Uncorrodable",
+    "Link-href":"http://netrunnerdb.com/en/decklist/8936/uncorrodable",
+    "Publish Date":"Aug 25, 2014"
+  },
+  {
+    "Name":"The Government Takeover - Leisure Games, London, 2nd Place",
+    "Author":"frost-duty",
+    "Likes Favorites Comments":"275\n\t\t\t 233\n\t\t\t 72",
+    "Link":"The Government Takeover - Leisure Games, London, 2nd Place",
+    "Link-href":"http://netrunnerdb.com/en/decklist/15621/the-government-takeover-leisure-games-london-2nd-place",
+    "Publish Date":"Feb 15, 2015"
+  },
+  {
+    "Name":"Fascism- \"Three\" Ways to Win",
+    "Author":"Empires",
+    "Likes Favorites Comments":"100\n\t\t\t 84\n\t\t\t 29",
+    "Link":"Fascism- \"Three\" Ways to Win",
+    "Link-href":"http://netrunnerdb.com/en/decklist/24824/fascism-three-ways-to-win",
+    "Publish Date":"Aug 12, 2015"
+  },
+  {
+    "Name":"No Siphons, Please. Card Kingdom Store Championship 1st Plac",
+    "Author":"afishisborn",
+    "Likes Favorites Comments":"91\n\t\t\t 83\n\t\t\t 25",
+    "Link":"No Siphons, Please. Card Kingdom Store Championship 1st Plac",
+    "Link-href":"http://netrunnerdb.com/en/decklist/16578/no-siphons-please-card-kingdom-store-championship-1st-plac",
+    "Publish Date":"Mar 1, 2015"
+  },
+  {
+    "Name":"Fastrobiotics: 1st Place at London Regional",
+    "Author":"Circadia",
+    "Likes Favorites Comments":"74\n\t\t\t 66\n\t\t\t 6",
+    "Link":"Fastrobiotics: 1st Place at London Regional",
+    "Link-href":"http://netrunnerdb.com/en/decklist/5500/fastrobiotics-1st-place-at-london-regional",
+    "Publish Date":"May 12, 2014"
+  },
+  {
+    "Name":"The Snitchiest Exotic Earthrise Hotel",
+    "Author":"BTrain",
+    "Likes Favorites Comments":"42\n\t\t\t 34\n\t\t\t 28",
+    "Link":"The Snitchiest Exotic Earthrise Hotel",
+    "Link-href":"http://netrunnerdb.com/en/decklist/17646/the-snitchiest-exotic-earthrise-hotel",
+    "Publish Date":"Mar 19, 2015"
+  },
+  {
+    "Name":"2014 Seattle Regional. 1st Place. 78 People. Uncle's Games",
+    "Author":"BazooKaJoe",
+    "Likes Favorites Comments":"45\n\t\t\t 40\n\t\t\t 17",
+    "Link":"2014 Seattle Regional. 1st Place. 78 People. Uncle's Games",
+    "Link-href":"http://netrunnerdb.com/en/decklist/6916/2014-seattle-regional-1st-place-78-people-uncle-s-games",
+    "Publish Date":"Jun 18, 2014"
+  },
+  {
+    "Name":"45 ACCOUNT SIPHONS: Reina's Halloween Costume",
+    "Author":"Bigguyforyou518",
+    "Likes Favorites Comments":"42\n\t\t\t 35\n\t\t\t 15",
+    "Link":"45 ACCOUNT SIPHONS: Reina's Halloween Costume",
+    "Link-href":"http://netrunnerdb.com/en/decklist/26493/45-account-siphons-reina-s-halloween-costume",
+    "Publish Date":"Sep 18, 2015"
+  },
+  {
+    "Name":"Striving for Perfection v2 (Jinteki Q1 2014 Earnings Cast)",
+    "Author":"ekayohlee",
+    "Likes Favorites Comments":"51\n\t\t\t 35\n\t\t\t 9",
+    "Link":"Striving for Perfection v2 (Jinteki Q1 2014 Earnings Cast)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/8678/striving-for-perfection-v2-jinteki-q1-2014-earnings-cast-",
+    "Publish Date":"Aug 18, 2014"
+  },
+  {
+    "Name":"Congress",
+    "Author":"Daine",
+    "Likes Favorites Comments":"113\n\t\t\t 92\n\t\t\t 42",
+    "Link":"Congress",
+    "Link-href":"http://netrunnerdb.com/en/decklist/23925/congress",
+    "Publish Date":"Jul 20, 2015"
+  },
+  {
+    "Name":"Universally Blue Explosions v3",
+    "Author":"frost-duty",
+    "Likes Favorites Comments":"76\n\t\t\t 62\n\t\t\t 38",
+    "Link":"Universally Blue Explosions v3",
+    "Link-href":"http://netrunnerdb.com/en/decklist/14287/universally-blue-explosions-v3",
+    "Publish Date":"Jan 29, 2015"
+  },
+  {
+    "Name":"Stealing ain't that hard (Vienna Store Champs First Place)",
+    "Author":"PeekaySK",
+    "Likes Favorites Comments":"183\n\t\t\t 155\n\t\t\t 36",
+    "Link":"Stealing ain't that hard (Vienna Store Champs First Place)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/3382/stealing-ain-t-that-hard-vienna-store-champs-first-place-",
+    "Publish Date":"Mar 22, 2014"
+  },
+  {
+    "Name":"Worlds 2014, 2nd place",
+    "Author":"Mtgred",
+    "Likes Favorites Comments":"133\n\t\t\t 115\n\t\t\t 15",
+    "Link":"Worlds 2014, 2nd place",
+    "Link-href":"http://netrunnerdb.com/en/decklist/10877/worlds-2014-2nd-place",
+    "Publish Date":"Nov 13, 2014"
+  },
+  {
+    "Name":"Rangus Security (12-4 Nat'l / ANRPC / Regionals)",
+    "Author":"thesenorcortez",
+    "Likes Favorites Comments":"97\n\t\t\t 77\n\t\t\t 28",
+    "Link":"Rangus Security (12-4 Nat'l / ANRPC / Regionals)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/24367/rangus-security-12-4-nat-l-anrpc-regionals-",
+    "Publish Date":"Aug 2, 2015"
+  },
+  {
+    "Name":"The Oscars",
+    "Author":"zbauermeister",
+    "Likes Favorites Comments":"91\n\t\t\t 44\n\t\t\t 22",
+    "Link":"The Oscars",
+    "Link-href":"http://netrunnerdb.com/en/decklist/19611/the-oscars",
+    "Publish Date":"Apr 23, 2015"
+  },
+  {
+    "Name":"Who Needs A Butcher....... Australian Nationals 2015 Winner",
+    "Author":"Dazm0",
+    "Likes Favorites Comments":"58\n\t\t\t 44\n\t\t\t 18",
+    "Link":"Who Needs A Butcher....... Australian Nationals 2015 Winner",
+    "Link-href":"http://netrunnerdb.com/en/decklist/25173/who-needs-a-butcher-australian-nationals-2015-winner",
+    "Publish Date":"Aug 18, 2015"
+  },
+  {
+    "Name":"Kitsunichord, or Take The Bait",
+    "Author":"Stranger Danger",
+    "Likes Favorites Comments":"47\n\t\t\t 36\n\t\t\t 16",
+    "Link":"Kitsunichord, or Take The Bait",
+    "Link-href":"http://netrunnerdb.com/en/decklist/24576/kitsunichord-or-take-the-bait",
+    "Publish Date":"Aug 8, 2015"
+  },
+  {
+    "Name":"Demon Kate 2.0 - 1st Place MTG Deals SC (San Gabriel, CA)",
+    "Author":"pillowdemon",
+    "Likes Favorites Comments":"99\n\t\t\t 88\n\t\t\t 24",
+    "Link":"Demon Kate 2.0 - 1st Place MTG Deals SC (San Gabriel, CA)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/17510/demon-kate-2-0-1st-place-mtg-deals-sc-san-gabriel-ca-",
+    "Publish Date":"Mar 17, 2015"
+  },
+  {
+    "Name":"Yellow Deck Wins [Just Do It V2]",
+    "Author":"say200426",
+    "Likes Favorites Comments":"55\n\t\t\t 43\n\t\t\t 26",
+    "Link":"Yellow Deck Wins [Just Do It V2]",
+    "Link-href":"http://netrunnerdb.com/en/decklist/20359/yellow-deck-wins-just-do-it-v2-",
+    "Publish Date":"May 6, 2015"
+  },
+  {
+    "Name":"ONE WEIRD TRICK",
+    "Author":"easong",
+    "Likes Favorites Comments":"42\n\t\t\t 35\n\t\t\t 18",
+    "Link":"ONE WEIRD TRICK",
+    "Link-href":"http://netrunnerdb.com/en/decklist/10210/one-weird-trick",
+    "Publish Date":"Oct 26, 2014"
+  },
+  {
+    "Name":"Chart Harder - Indexing variant",
+    "Author":"BTrain",
+    "Likes Favorites Comments":"38\n\t\t\t 34\n\t\t\t 5",
+    "Link":"Chart Harder - Indexing variant",
+    "Link-href":"http://netrunnerdb.com/en/decklist/11171/chart-harder-indexing-variant",
+    "Publish Date":"Nov 19, 2014"
+  },
+  {
+    "Name":"The Spanish Influenza v3.0",
+    "Author":"Snake Eyes",
+    "Likes Favorites Comments":"36\n\t\t\t 29\n\t\t\t 8",
+    "Link":"The Spanish Influenza v3.0",
+    "Link-href":"http://netrunnerdb.com/en/decklist/12984/the-spanish-influenza-v3-0",
+    "Publish Date":"Jan 5, 2015"
+  },
+  {
+    "Name":"High Assets - 1st Place SC, Red Castle Games, PDX, Oregon",
+    "Author":"johnnycreations",
+    "Likes Favorites Comments":"96\n\t\t\t 73\n\t\t\t 34",
+    "Link":"High Assets - 1st Place SC, Red Castle Games, PDX, Oregon",
+    "Link-href":"http://netrunnerdb.com/en/decklist/16098/high-assets-1st-place-sc-red-castle-games-pdx-oregon",
+    "Publish Date":"Feb 22, 2015"
+  },
+  {
+    "Name":"The Labyrinth of Consciousness",
+    "Author":"CodeMarvelous",
+    "Likes Favorites Comments":"41\n\t\t\t 35\n\t\t\t 9",
+    "Link":"The Labyrinth of Consciousness",
+    "Link-href":"http://netrunnerdb.com/en/decklist/18762/the-labyrinth-of-consciousness",
+    "Publish Date":"Apr 8, 2015"
+  },
+  {
+    "Name":"First Place Castelldefells Store Championship",
+    "Author":"Flatline",
+    "Likes Favorites Comments":"42\n\t\t\t 35\n\t\t\t 10",
+    "Link":"First Place Castelldefells Store Championship",
+    "Link-href":"http://netrunnerdb.com/en/decklist/2364/first-place-castelldefells-store-championship",
+    "Publish Date":"Feb 18, 2014"
+  },
+  {
+    "Name":"Good Things on Sale, Stranger; 1st place Plano TX Regionals",
+    "Author":"hi_impact",
+    "Likes Favorites Comments":"155\n\t\t\t 126\n\t\t\t 40",
+    "Link":"Good Things on Sale, Stranger; 1st place Plano TX Regionals",
+    "Link-href":"http://netrunnerdb.com/en/decklist/24158/good-things-on-sale-stranger-1st-place-plano-tx-regionals",
+    "Publish Date":"Jul 27, 2015"
+  },
+  {
+    "Name":"Snakes on an AstroTrain",
+    "Author":"alientoyshop",
+    "Likes Favorites Comments":"82\n\t\t\t 63\n\t\t\t 38",
+    "Link":"Snakes on an AstroTrain",
+    "Link-href":"http://netrunnerdb.com/en/decklist/18630/snakes-on-an-astrotrain",
+    "Publish Date":"Apr 6, 2015"
+  },
+  {
+    "Name":"The Crusade v2 (1st place in 3 Store Championships)",
+    "Author":"Cerberus",
+    "Likes Favorites Comments":"54\n\t\t\t 47\n\t\t\t 8",
+    "Link":"The Crusade v2 (1st place in 3 Store Championships)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/17061/the-crusade-v2-1st-place-in-3-store-championships-",
+    "Publish Date":"Mar 9, 2015"
+  },
+  {
+    "Name":"Noise \"V\" (Melbourne Regionals 2014 winner)",
+    "Author":"chanstheorem",
+    "Likes Favorites Comments":"107\n\t\t\t 93\n\t\t\t 33",
+    "Link":"Noise \"V\" (Melbourne Regionals 2014 winner)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/7401/noise-v-melbourne-regionals-2014-winner-",
+    "Publish Date":"Jul 5, 2014"
+  },
+  {
+    "Name":"Argus Meat Market",
+    "Author":"CodeMarvelous",
+    "Likes Favorites Comments":"76\n\t\t\t 63\n\t\t\t 28",
+    "Link":"Argus Meat Market",
+    "Link-href":"http://netrunnerdb.com/en/decklist/16625/argus-meat-market",
+    "Publish Date":"Mar 2, 2015"
+  },
+  {
+    "Name":"Meat is Murder: 1st Place Uroboros Cup 2015 (67 Players)",
+    "Author":"NicoleyMoley",
+    "Likes Favorites Comments":"77\n\t\t\t 59\n\t\t\t 18",
+    "Link":"Meat is Murder: 1st Place Uroboros Cup 2015 (67 Players)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/21629/meat-is-murder-1st-place-uroboros-cup-2015-67-players-",
+    "Publish Date":"Jun 1, 2015"
+  },
+  {
+    "Name":"Dinomite v3 (1st, Auckland Regionals)",
+    "Author":"Fjord",
+    "Likes Favorites Comments":"36\n\t\t\t 32\n\t\t\t 10",
+    "Link":"Dinomite v3 (1st, Auckland Regionals)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/8969/dinomite-v3-1st-auckland-regionals-",
+    "Publish Date":"Aug 25, 2014"
+  },
+  {
+    "Name":"Gas Pedal - 1st GLC LCQ/3rd GLC Finals",
+    "Author":"spags",
+    "Likes Favorites Comments":"40\n\t\t\t 34\n\t\t\t 21",
+    "Link":"Gas Pedal - 1st GLC LCQ/3rd GLC Finals",
+    "Link-href":"http://netrunnerdb.com/en/decklist/26612/gas-pedal-1st-glc-lcq-3rd-glc-finals",
+    "Publish Date":"Sep 21, 2015"
+  },
+  {
+    "Name":"Untrashable v5",
+    "Author":"db0",
+    "Likes Favorites Comments":"37\n\t\t\t 32\n\t\t\t 35",
+    "Link":"Untrashable v5",
+    "Link-href":"http://netrunnerdb.com/en/decklist/3489/untrashable-v5",
+    "Publish Date":"Mar 26, 2014"
+  },
+  {
+    "Name":"Blue True Control deck.",
+    "Author":"x3r0h0ur",
+    "Likes Favorites Comments":"46\n\t\t\t 38\n\t\t\t 31",
+    "Link":"Blue True Control deck.",
+    "Link-href":"http://netrunnerdb.com/en/decklist/5348/blue-true-control-deck-",
+    "Publish Date":"May 9, 2014"
+  },
+  {
+    "Name":"Argus Security, Flatline Guaranteed. Athens St. Champ Winner",
+    "Author":"Letsaros",
+    "Likes Favorites Comments":"87\n\t\t\t 76\n\t\t\t 50",
+    "Link":"Argus Security, Flatline Guaranteed. Athens St. Champ Winner",
+    "Link-href":"http://netrunnerdb.com/en/decklist/18224/argus-security-flatline-guaranteed-athens-st-champ-winner",
+    "Publish Date":"Mar 30, 2015"
+  },
+  {
+    "Name":"RegAss MaxX",
+    "Author":"Calimsha",
+    "Likes Favorites Comments":"38\n\t\t\t 29\n\t\t\t 5",
+    "Link":"RegAss MaxX",
+    "Link-href":"http://netrunnerdb.com/en/decklist/15803/regass-maxx",
+    "Publish Date":"Feb 18, 2015"
+  },
+  {
+    "Name":"Modified Notorious Daily Quester (Chicago Regionals 2014)",
+    "Author":"kranse",
+    "Likes Favorites Comments":"255\n\t\t\t 222\n\t\t\t 46",
+    "Link":"Modified Notorious Daily Quester (Chicago Regionals 2014)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/5431/modified-notorious-daily-quester-chicago-regionals-2014-",
+    "Publish Date":"May 10, 2014"
+  },
+  {
+    "Name":"Everything is better with Atman (Planet Harry Vienna SC 1st)",
+    "Author":"PeekaySK",
+    "Likes Favorites Comments":"46\n\t\t\t 45\n\t\t\t 16",
+    "Link":"Everything is better with Atman (Planet Harry Vienna SC 1st)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/17424/everything-is-better-with-atman-planet-harry-vienna-sc-1st-",
+    "Publish Date":"Mar 15, 2015"
+  },
+  {
+    "Name":"Hard Stealth Kit",
+    "Author":"BTrain",
+    "Likes Favorites Comments":"109\n\t\t\t 95\n\t\t\t 24",
+    "Link":"Hard Stealth Kit",
+    "Link-href":"http://netrunnerdb.com/en/decklist/9665/hard-stealth-kit",
+    "Publish Date":"Oct 11, 2014"
+  },
+  {
+    "Name":"Geist in the Shell, 1st BABW LCQ, 3rd BABW finals.",
+    "Author":"mendax",
+    "Likes Favorites Comments":"55\n\t\t\t 42\n\t\t\t 22",
+    "Link":"Geist in the Shell, 1st BABW LCQ, 3rd BABW finals.",
+    "Link-href":"http://netrunnerdb.com/en/decklist/26602/geist-in-the-shell-1st-babw-lcq-3rd-babw-finals-",
+    "Publish Date":"Sep 21, 2015"
+  },
+  {
+    "Name":"Untrashable v6",
+    "Author":"db0",
+    "Likes Favorites Comments":"46\n\t\t\t 40\n\t\t\t 17",
+    "Link":"Untrashable v6",
+    "Link-href":"http://netrunnerdb.com/en/decklist/4964/untrashable-v6",
+    "Publish Date":"May 3, 2014"
+  },
+  {
+    "Name":"Same Old Andy: 1st Place at London Regional",
+    "Author":"Circadia",
+    "Likes Favorites Comments":"47\n\t\t\t 44\n\t\t\t 5",
+    "Link":"Same Old Andy: 1st Place at London Regional",
+    "Link-href":"http://netrunnerdb.com/en/decklist/5519/same-old-andy-1st-place-at-london-regional",
+    "Publish Date":"May 13, 2014"
+  },
+  {
+    "Name":"The Institute for Unorthodox Archery",
+    "Author":"PeekaySK",
+    "Likes Favorites Comments":"77\n\t\t\t 63\n\t\t\t 25",
+    "Link":"The Institute for Unorthodox Archery",
+    "Link-href":"http://netrunnerdb.com/en/decklist/7119/the-institute-for-unorthodox-archery",
+    "Publish Date":"Jun 25, 2014"
+  },
+  {
+    "Name":"Noise \"V\" (GoodGames Melbourne Store Championship winner)",
+    "Author":"chanstheorem",
+    "Likes Favorites Comments":"87\n\t\t\t 77\n\t\t\t 21",
+    "Link":"Noise \"V\" (GoodGames Melbourne Store Championship winner)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/3267/noise-v-goodgames-melbourne-store-championship-winner-",
+    "Publish Date":"Mar 19, 2014"
+  },
+  {
+    "Name":"#slottheClot - Wausau, WI Regional 1st place",
+    "Author":"spags",
+    "Likes Favorites Comments":"36\n\t\t\t 27\n\t\t\t 15",
+    "Link":"#slottheClot - Wausau, WI Regional 1st place",
+    "Link-href":"http://netrunnerdb.com/en/decklist/20512/-slottheclot-wausau-wi-regional-1st-place",
+    "Publish Date":"May 10, 2015"
+  },
+  {
+    "Name":"Polish HB (1st & undefeated @ Wrocław Regionals)",
+    "Author":"Matuszczak",
+    "Likes Favorites Comments":"119\n\t\t\t 104\n\t\t\t 27",
+    "Link":"Polish HB (1st & undefeated @ Wrocław Regionals)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/22917/polish-hb-1st-undefeated-wroc-aw-regionals-",
+    "Publish Date":"Jun 28, 2015"
+  },
+  {
+    "Name":"Trashing a Better World (Columbus Store Championship)",
+    "Author":"teknic",
+    "Likes Favorites Comments":"44\n\t\t\t 36\n\t\t\t 13",
+    "Link":"Trashing a Better World (Columbus Store Championship)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/3169/trashing-a-better-world-columbus-store-championship-",
+    "Publish Date":"Mar 16, 2014"
+  },
+  {
+    "Name":"Hypershitfucker",
+    "Author":"LSK",
+    "Likes Favorites Comments":"85\n\t\t\t 59\n\t\t\t 30",
+    "Link":"Hypershitfucker",
+    "Link-href":"http://netrunnerdb.com/en/decklist/22828/hypershitfucker",
+    "Publish Date":"Jun 26, 2015"
+  },
+  {
+    "Name":"Andromeda - President/CEO",
+    "Author":"Nordrunner",
+    "Likes Favorites Comments":"59\n\t\t\t 51\n\t\t\t 17",
+    "Link":"Andromeda - President/CEO",
+    "Link-href":"http://netrunnerdb.com/en/decklist/7831/andromeda-president-ceo",
+    "Publish Date":"Jul 22, 2014"
+  },
+  {
+    "Name":"NBN: Engineering the Future - 10 wins, 0 losses",
+    "Author":"Friff14",
+    "Likes Favorites Comments":"47\n\t\t\t 41\n\t\t\t 22",
+    "Link":"NBN: Engineering the Future - 10 wins, 0 losses",
+    "Link-href":"http://netrunnerdb.com/en/decklist/22568/nbn-engineering-the-future-10-wins-0-losses",
+    "Publish Date":"Jun 19, 2015"
+  },
+  {
+    "Name":"P.E.A.R.N.A.D. v1.1",
+    "Author":"dodgepong",
+    "Likes Favorites Comments":"54\n\t\t\t 45\n\t\t\t 19",
+    "Link":"P.E.A.R.N.A.D. v1.1",
+    "Link-href":"http://netrunnerdb.com/en/decklist/11695/p-e-a-r-n-a-d-v1-1",
+    "Publish Date":"Dec 1, 2014"
+  },
+  {
+    "Name":"Tennin Lightning (Chicago Regionals 2014)",
+    "Author":"kranse",
+    "Likes Favorites Comments":"114\n\t\t\t 98\n\t\t\t 35",
+    "Link":"Tennin Lightning (Chicago Regionals 2014)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/5430/tennin-lightning-chicago-regionals-2014-",
+    "Publish Date":"May 10, 2014"
+  },
+  {
+    "Name":"1st Place Spring Tournament TEG Colorado",
+    "Author":"Searn",
+    "Likes Favorites Comments":"37\n\t\t\t 35\n\t\t\t 15",
+    "Link":"1st Place Spring Tournament TEG Colorado",
+    "Link-href":"http://netrunnerdb.com/en/decklist/23891/1st-place-spring-tournament-teg-colorado",
+    "Publish Date":"Jul 19, 2015"
+  },
+  {
+    "Name":"Full disclosure",
+    "Author":"x3r0h0ur",
+    "Likes Favorites Comments":"39\n\t\t\t 35\n\t\t\t 19",
+    "Link":"Full disclosure",
+    "Link-href":"http://netrunnerdb.com/en/decklist/9213/full-disclosure",
+    "Publish Date":"Sep 3, 2014"
+  },
+  {
+    "Name":"Starter Deck - Runner Intermediate",
+    "Author":"Oniya",
+    "Likes Favorites Comments":"76\n\t\t\t 68\n\t\t\t 2",
+    "Link":"Starter Deck - Runner Intermediate",
+    "Link-href":"http://netrunnerdb.com/en/decklist/3107/starter-deck-runner-intermediate",
+    "Publish Date":"Mar 13, 2014"
+  },
+  {
+    "Name":"The Cartographer's Dilemma v1.0",
+    "Author":"WardOfTheWoods",
+    "Likes Favorites Comments":"58\n\t\t\t 51\n\t\t\t 21",
+    "Link":"The Cartographer's Dilemma v1.0",
+    "Link-href":"http://netrunnerdb.com/en/decklist/24544/the-cartographer-s-dilemma-v1-0",
+    "Publish Date":"Aug 6, 2015"
+  },
+  {
+    "Name":"L4J (Looking for job) - Madison, WI Regional 2nd place",
+    "Author":"spags",
+    "Likes Favorites Comments":"250\n\t\t\t 205\n\t\t\t 76",
+    "Link":"L4J (Looking for job) - Madison, WI Regional 2nd place",
+    "Link-href":"http://netrunnerdb.com/en/decklist/21538/l4j-looking-for-job-madison-wi-regional-2nd-place",
+    "Publish Date":"May 31, 2015"
+  },
+  {
+    "Name":"Vamp Kit - 1st place Regionals Dortmund 2/5/15",
+    "Author":"Eldraian",
+    "Likes Favorites Comments":"46\n\t\t\t 31\n\t\t\t 12",
+    "Link":"Vamp Kit - 1st place Regionals Dortmund 2/5/15",
+    "Link-href":"http://netrunnerdb.com/en/decklist/20148/vamp-kit-1st-place-regionals-dortmund-2-5-15",
+    "Publish Date":"May 3, 2015"
+  },
+  {
+    "Name":"\"Have you met Blackat?\" - Stockholm Regionals 2015 Winner",
+    "Author":"Warpstoned",
+    "Likes Favorites Comments":"40\n\t\t\t 33\n\t\t\t 14",
+    "Link":"\"Have you met Blackat?\" - Stockholm Regionals 2015 Winner",
+    "Link-href":"http://netrunnerdb.com/en/decklist/22013/-have-you-met-blackat-stockholm-regionals-2015-winner",
+    "Publish Date":"Jun 8, 2015"
+  },
+  {
+    "Name":"The art of the silent kill (1st, Adelaide Chronos Protocol)",
+    "Author":"Ber",
+    "Likes Favorites Comments":"65\n\t\t\t 54\n\t\t\t 35",
+    "Link":"The art of the silent kill (1st, Adelaide Chronos Protocol)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/4468/the-art-of-the-silent-kill-1st-adelaide-chronos-protocol-",
+    "Publish Date":"Apr 22, 2014"
+  },
+  {
+    "Name":"Why Are You Doing That? v3",
+    "Author":"TheYoYoGuy",
+    "Likes Favorites Comments":"88\n\t\t\t 77\n\t\t\t 19",
+    "Link":"Why Are You Doing That? v3",
+    "Link-href":"http://netrunnerdb.com/en/decklist/12391/why-are-you-doing-that-v3",
+    "Publish Date":"Dec 17, 2014"
+  },
+  {
+    "Name":"Gang Sign Leela the Turntable version. (AKA TurntabLeela)",
+    "Author":"Letsaros",
+    "Likes Favorites Comments":"148\n\t\t\t 116\n\t\t\t 56",
+    "Link":"Gang Sign Leela the Turntable version. (AKA TurntabLeela)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/23200/gang-sign-leela-the-turntable-version-aka-turntableela-",
+    "Publish Date":"Jul 3, 2015"
+  },
+  {
+    "Name":"The Tennin Institute for Children who Can't Run Good...",
+    "Author":"funnyways3",
+    "Likes Favorites Comments":"76\n\t\t\t 58\n\t\t\t 16",
+    "Link":"The Tennin Institute for Children who Can't Run Good...",
+    "Link-href":"http://netrunnerdb.com/en/decklist/7003/the-tennin-institute-for-children-who-can-t-run-good-",
+    "Publish Date":"Jun 22, 2014"
+  },
+  {
+    "Name":"Hayley Kaplan's \"The Machine\"",
+    "Author":"proxy",
+    "Likes Favorites Comments":"61\n\t\t\t 53\n\t\t\t 16",
+    "Link":"Hayley Kaplan's \"The Machine\"",
+    "Link-href":"http://netrunnerdb.com/en/decklist/20012/hayley-kaplan-s-the-machine-",
+    "Publish Date":"Apr 30, 2015"
+  },
+  {
+    "Name":"Quinns' Tier 1.1 Gagarin Deck",
+    "Author":"Quinns",
+    "Likes Favorites Comments":"96\n\t\t\t 78\n\t\t\t 26",
+    "Link":"Quinns' Tier 1.1 Gagarin Deck",
+    "Link-href":"http://netrunnerdb.com/en/decklist/15581/quinns-tier-1-1-gagarin-deck",
+    "Publish Date":"Feb 14, 2015"
+  },
+  {
+    "Name":"Kelf's  \"Little Garden\"",
+    "Author":"Kelfecil",
+    "Likes Favorites Comments":"45\n\t\t\t 36\n\t\t\t 25",
+    "Link":"Kelf's  \"Little Garden\"",
+    "Link-href":"http://netrunnerdb.com/en/decklist/23286/kelf-s-little-garden-",
+    "Publish Date":"Jul 5, 2015"
+  },
+  {
+    "Name":"Striving for Perfection (Jinteki Q4 2013 Earnings Call)",
+    "Author":"ekayohlee",
+    "Likes Favorites Comments":"89\n\t\t\t 64\n\t\t\t 23",
+    "Link":"Striving for Perfection (Jinteki Q4 2013 Earnings Call)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/3433/striving-for-perfection-jinteki-q4-2013-earnings-call-",
+    "Publish Date":"Mar 24, 2014"
+  },
+  {
+    "Name":"SlySquids \"Mother F****** Deck\" w/ SanSan Cycle",
+    "Author":"SlySquid",
+    "Likes Favorites Comments":"42\n\t\t\t 36\n\t\t\t 8",
+    "Link":"SlySquids \"Mother F****** Deck\" w/ SanSan Cycle",
+    "Link-href":"http://netrunnerdb.com/en/decklist/26324/slysquids-mother-f-deck-w-sansan-cycle",
+    "Publish Date":"Sep 14, 2015"
+  },
+  {
+    "Name":"The Crescentus Clutch (v1.5)",
+    "Author":"Circadia",
+    "Likes Favorites Comments":"53\n\t\t\t 45\n\t\t\t 15",
+    "Link":"The Crescentus Clutch (v1.5)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/19401/the-crescentus-clutch-v1-5-",
+    "Publish Date":"Apr 20, 2015"
+  },
+  {
+    "Name":"Jinteki 15.5 (Chirs Hinkes' 2014 Cambridge Regional Winner)",
+    "Author":"saracenus",
+    "Likes Favorites Comments":"69\n\t\t\t 61\n\t\t\t 4",
+    "Link":"Jinteki 15.5 (Chirs Hinkes' 2014 Cambridge Regional Winner)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/7664/jinteki-15-5-chirs-hinkes-2014-cambridge-regional-winner-",
+    "Publish Date":"Jul 16, 2014"
+  },
+  {
+    "Name":"Barely Legal  - Top 16 US Nationals.",
+    "Author":"Eris_Another",
+    "Likes Favorites Comments":"44\n\t\t\t 29\n\t\t\t 11",
+    "Link":"Barely Legal  - Top 16 US Nationals.",
+    "Link-href":"http://netrunnerdb.com/en/decklist/24339/barely-legal-top-16-us-nationals-",
+    "Publish Date":"Aug 1, 2015"
+  },
+  {
+    "Name":"Are you watching closely? 2nd at ANRPC Wausau, Jul 18",
+    "Author":"linuxmaier",
+    "Likes Favorites Comments":"65\n\t\t\t 57\n\t\t\t 20",
+    "Link":"Are you watching closely? 2nd at ANRPC Wausau, Jul 18",
+    "Link-href":"http://netrunnerdb.com/en/decklist/23903/are-you-watching-closely-2nd-at-anrpc-wausau-jul-18",
+    "Publish Date":"Jul 19, 2015"
+  },
+  {
+    "Name":"Gamers Den 2014 Store Champion 1st Place Deck",
+    "Author":"Locke",
+    "Likes Favorites Comments":"49\n\t\t\t 46\n\t\t\t 12",
+    "Link":"Gamers Den 2014 Store Champion 1st Place Deck",
+    "Link-href":"http://netrunnerdb.com/en/decklist/2678/gamers-den-2014-store-champion-1st-place-deck",
+    "Publish Date":"Feb 26, 2014"
+  },
+  {
+    "Name":"Quinns' Tier 1.2 Gagarin Deck (6th at London Regionals)",
+    "Author":"Quinns",
+    "Likes Favorites Comments":"118\n\t\t\t 87\n\t\t\t 25",
+    "Link":"Quinns' Tier 1.2 Gagarin Deck (6th at London Regionals)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/19483/quinns-tier-1-2-gagarin-deck-6th-at-london-regionals-",
+    "Publish Date":"Apr 21, 2015"
+  },
+  {
+    "Name":"The Black Knight - BABW York winner",
+    "Author":"Vapo",
+    "Likes Favorites Comments":"132\n\t\t\t 114\n\t\t\t 26",
+    "Link":"The Black Knight - BABW York winner",
+    "Link-href":"http://netrunnerdb.com/en/decklist/23599/the-black-knight-babw-york-winner",
+    "Publish Date":"Jul 12, 2015"
+  },
+  {
+    "Name":"Faust Joust v1.0 - 1st Place Berkeley ANRPC Qualifier",
+    "Author":"llama66613",
+    "Likes Favorites Comments":"39\n\t\t\t 31\n\t\t\t 25",
+    "Link":"Faust Joust v1.0 - 1st Place Berkeley ANRPC Qualifier",
+    "Link-href":"http://netrunnerdb.com/en/decklist/23615/faust-joust-v1-0-1st-place-berkeley-anrpc-qualifier",
+    "Publish Date":"Jul 13, 2015"
+  },
+  {
+    "Name":"Ser Gabriel (1st Place @ The Yellow King)",
+    "Author":"CrimsonWraith",
+    "Likes Favorites Comments":"86\n\t\t\t 76\n\t\t\t 36",
+    "Link":"Ser Gabriel (1st Place @ The Yellow King)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/2511/ser-gabriel-1st-place-the-yellow-king-",
+    "Publish Date":"Feb 22, 2014"
+  },
+  {
+    "Name":"Psycho Gods v2",
+    "Author":"db0",
+    "Likes Favorites Comments":"76\n\t\t\t 64\n\t\t\t 5",
+    "Link":"Psycho Gods v2",
+    "Link-href":"http://netrunnerdb.com/en/decklist/392/psycho-gods-v2",
+    "Publish Date":"Nov 5, 2013"
+  },
+  {
+    "Name":"Praise the Sun!",
+    "Author":"CodeMarvelous",
+    "Likes Favorites Comments":"36\n\t\t\t 27\n\t\t\t 19",
+    "Link":"Praise the Sun!",
+    "Link-href":"http://netrunnerdb.com/en/decklist/24636/praise-the-sun-",
+    "Publish Date":"Aug 10, 2015"
+  },
+  {
+    "Name":"HB Webz *Nordic National Championship 1st Place*",
+    "Author":"evilgaz",
+    "Likes Favorites Comments":"46\n\t\t\t 38\n\t\t\t 5",
+    "Link":"HB Webz *Nordic National Championship 1st Place*",
+    "Link-href":"http://netrunnerdb.com/en/decklist/25094/hb-webz-nordic-national-championship-1st-place-",
+    "Publish Date":"Aug 17, 2015"
+  },
+  {
+    "Name":"StarkandTully's combo MaxX (4th in Stimhack Invitational)",
+    "Author":"LSK",
+    "Likes Favorites Comments":"60\n\t\t\t 45\n\t\t\t 21",
+    "Link":"StarkandTully's combo MaxX (4th in Stimhack Invitational)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/19047/starkandtully-s-combo-maxx-4th-in-stimhack-invitational-",
+    "Publish Date":"Apr 13, 2015"
+  },
+  {
+    "Name":"Starter Deck - Corp Intermediate",
+    "Author":"Oniya",
+    "Likes Favorites Comments":"89\n\t\t\t 74\n\t\t\t 0",
+    "Link":"Starter Deck - Corp Intermediate",
+    "Link-href":"http://netrunnerdb.com/en/decklist/3108/starter-deck-corp-intermediate",
+    "Publish Date":"Mar 13, 2014"
+  },
+  {
+    "Name":"\"Aggressive Troubleshooters\"  3 time Store Champ deck Redux",
+    "Author":"d1en",
+    "Likes Favorites Comments":"67\n\t\t\t 54\n\t\t\t 12",
+    "Link":"\"Aggressive Troubleshooters\"  3 time Store Champ deck Redux",
+    "Link-href":"http://netrunnerdb.com/en/decklist/9410/-aggressive-troubleshooters-3-time-store-champ-deck-redux",
+    "Publish Date":"Sep 9, 2014"
+  },
+  {
+    "Name":"Crusader",
+    "Author":"altruiste",
+    "Likes Favorites Comments":"65\n\t\t\t 48\n\t\t\t 10",
+    "Link":"Crusader",
+    "Link-href":"http://netrunnerdb.com/en/decklist/20262/crusader",
+    "Publish Date":"May 5, 2015"
+  },
+  {
+    "Name":"Lanri / 藍日 (Worlds 3rd place corp deck)",
+    "Author":"tmoiynmwg",
+    "Likes Favorites Comments":"169\n\t\t\t 139\n\t\t\t 21",
+    "Link":"Lanri / 藍日 (Worlds 3rd place corp deck)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/10918/lanri-worlds-3rd-place-corp-deck-",
+    "Publish Date":"Nov 14, 2014"
+  },
+  {
+    "Name":"In A Red Dress and Alone (Jamieson's Store Champ Deck)",
+    "Author":"Lodan",
+    "Likes Favorites Comments":"75\n\t\t\t 63\n\t\t\t 22",
+    "Link":"In A Red Dress and Alone (Jamieson's Store Champ Deck)",
+    "Link-href":"http://netrunnerdb.com/en/decklist/3124/in-a-red-dress-and-alone-jamieson-s-store-champ-deck-",
+    "Publish Date":"Mar 14, 2014"
+  },
+  {
+    "Name":"Valentine's Date with Kate - Leisure Games London, 1st place",
+    "Author":"bewnt",
+    "Likes Favorites Comments":"50\n\t\t\t 45\n\t\t\t 16",
+    "Link":"Valentine's Date with Kate - Leisure Games London, 1st place",
+    "Link-href":"http://netrunnerdb.com/en/decklist/15648/valentine-s-date-with-kate-leisure-games-london-1st-place",
+    "Publish Date":"Feb 16, 2015"
+  }
+]
