@@ -33,12 +33,15 @@ angular.module('nrdpApp').controller('nrdpTroller', ['$scope', 'nrdpFactory', fu
 // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 // Suggestion making algorithm, leaves out quantity of cards per pack
 // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-	
+	function getMaxOfArray(numArray) {
+  		return Math.max.apply(null, numArray);
+	}
+
+
+	$scope.deckSuggestions=[]
 	$scope.makeSuggestion = function() {
-		console.log($scope.allDecklists)
-		var deckSuggestions = $scope.allDecklists.filter(function(decklist) {
+		$scope.deckSuggestions = $scope.allDecklists.filter(function(decklist) {
 			keysArray = Object.keys(decklist.cards);
-			console.log(keysArray)
 			for (var j=0; j<keysArray.length; j++) {
 				if (userCardList.indexOf(keysArray[j]) === -1) {
 					return false;
@@ -49,8 +52,18 @@ angular.module('nrdpApp').controller('nrdpTroller', ['$scope', 'nrdpFactory', fu
 			}
 		});
 
-		console.log(deckSuggestions)
-		// console.log(Object.keys($scope.allDecklists[0].cards));
+		$scope.deckSuggestions.sort(function(deckA, deckB){
+			if (getMaxOfArray(Object.keys(deckA.cards)) > getMaxOfArray(Object.keys(deckB.cards))) {
+				return -1;
+			};
+			if (getMaxOfArray(Object.keys(deckA.cards)) < getMaxOfArray(Object.keys(deckB.cards))) {
+				return 1;
+			};
+			return 0;
+		});
+
+		console.log($scope.deckSuggestions);
 	};
+
 
 }]);

@@ -28,7 +28,7 @@
 					<span ng-show="selectNumberOfCores">&emsp;Please Select Number of Core Sets</span>
 				</accordion-group>
 				<accordion-group heading="Suggestion" ng-click="makeSuggestion()">
-					<div>placeholder</div>
+					<div ng-repeat="deck in deckSuggestions">{{deck.name}}</div>
 				</accordion-group>
 			</accordion>
 		</div>
