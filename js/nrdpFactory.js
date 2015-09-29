@@ -3,7 +3,7 @@ angular.module('nrdpApp').factory('nrdpFactory', ['$http', function($http) {
 	// console.log('allCards', allCards)
 	// console.log('allSets', allSets)
 	// console.log('hofScrape', hofScrape)
-	// console.log('corelist', corelist)
+	console.log('corelist', corelist)
 
 // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 // NRDB API CALLS - TO BE IMPLEMENTED IN THE FUTURE
@@ -32,6 +32,7 @@ angular.module('nrdpApp').factory('nrdpFactory', ['$http', function($http) {
 // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 	for (var i=0; i<allSets.length; i++) {
 		allSets[i].cards = [];
+		allSets[i].userSelect = false;
 		for (var j=0; j<allCards.length; j++) {
 			if (allCards[j].set_code === allSets[i].code) { 
 				allSets[i].cards.push(allCards[j].code);
