@@ -29,6 +29,7 @@ angular.module('nrdpApp').controller('nrdpTroller', ['$scope', 'nrdpFactory', fu
 			};
 		};		
 		userCardList = cards;
+		console.log('userCardList', userCardList)
 	};
 // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 // Suggestion making algorithm, leaves out quantity of cards per pack
@@ -42,14 +43,15 @@ angular.module('nrdpApp').controller('nrdpTroller', ['$scope', 'nrdpFactory', fu
 	$scope.makeSuggestion = function() {
 		$scope.deckSuggestions = $scope.allDecklists.filter(function(decklist) {
 			keysArray = Object.keys(decklist.cards);
+			console.log('decklist name', decklist.name);
+			console.log('keysArray', keysArray);
 			for (var j=0; j<keysArray.length; j++) {
 				if (userCardList.indexOf(keysArray[j]) === -1) {
 					return false;
 				}
-				if (userCardList.indexOf(keysArray[keysArray.length-1])!== -1) {
-					return true;
-				}
+
 			}
+			return true;
 		});
 
 		$scope.deckSuggestions.sort(function(deckA, deckB){
@@ -61,8 +63,7 @@ angular.module('nrdpApp').controller('nrdpTroller', ['$scope', 'nrdpFactory', fu
 			};
 			return 0;
 		});
-
-		console.log($scope.deckSuggestions);
+		console.log('deckSuggestions', $scope.deckSuggestions);
 	};
 
 

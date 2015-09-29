@@ -1,0 +1,7 @@
+.thumbnail {
+	height:auto;
+	width:auto;
+	max-height:150px;
+	max-width:150px;
+	float:left;
+}
