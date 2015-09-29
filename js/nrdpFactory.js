@@ -3,7 +3,7 @@ angular.module('nrdpApp').factory('nrdpFactory', ['$http', function($http) {
 	// console.log('allCards', allCards)
 	// console.log('allSets', allSets)
 	// console.log('hofScrape', hofScrape)
-	console.log('corelist', corelist)
+	// console.log('allDecklists', allDecklists)
 
 // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 // NRDB API CALLS - TO BE IMPLEMENTED IN THE FUTURE
@@ -48,7 +48,7 @@ angular.module('nrdpApp').factory('nrdpFactory', ['$http', function($http) {
 		allSets : allSets,
 		allCards : allCards,
 		hofScrape : hofScrape,
-		corelist : corelist
+		allDecklists : allDecklists
 	}
 
 }]);
