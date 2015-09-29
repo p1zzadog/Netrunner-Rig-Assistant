@@ -4,7 +4,6 @@ angular.module('nrdpApp').controller('nrdpTroller', ['$scope', 'nrdpFactory', fu
 	$scope.allSets = nrdpFactory.allSets;
 	$scope.allDecklists = nrdpFactory.allDecklists;
 	var userCardList = [];
-	console.log('sets', $scope.allSets);
 	// console.log('decklists', $scope.allDecklists);
 	
 	$scope.setCores = function(n){
@@ -29,7 +28,7 @@ angular.module('nrdpApp').controller('nrdpTroller', ['$scope', 'nrdpFactory', fu
 			};
 		};		
 		userCardList = cards;
-		console.log('userCardList', userCardList)
+		// console.log('userCardList', userCardList)
 	};
 // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 // Suggestion making algorithm, leaves out quantity of cards per pack
@@ -39,17 +38,14 @@ angular.module('nrdpApp').controller('nrdpTroller', ['$scope', 'nrdpFactory', fu
 	}
 
 
-	$scope.deckSuggestions=[]
+	$scope.deckSuggestions = [{identity:"http://netrunnerdb.com/bundles/netrunnerdbcards/images/cards/en/07029.png"}];
 	$scope.makeSuggestion = function() {
 		$scope.deckSuggestions = $scope.allDecklists.filter(function(decklist) {
 			keysArray = Object.keys(decklist.cards);
-			console.log('decklist name', decklist.name);
-			console.log('keysArray', keysArray);
 			for (var j=0; j<keysArray.length; j++) {
 				if (userCardList.indexOf(keysArray[j]) === -1) {
 					return false;
 				}
-
 			}
 			return true;
 		});
@@ -63,7 +59,6 @@ angular.module('nrdpApp').controller('nrdpTroller', ['$scope', 'nrdpFactory', fu
 			};
 			return 0;
 		});
-		console.log('deckSuggestions', $scope.deckSuggestions);
 	};
 
 

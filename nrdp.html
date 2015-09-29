@@ -27,11 +27,14 @@
 					<span ng-show="selectACore">&emsp;Please Select Core Set</span>
 					<span ng-show="selectNumberOfCores">&emsp;Please Select Number of Core Sets</span>
 				</accordion-group>
-				<accordion-group heading="Suggestion" ng-click="makeSuggestion()">
+				<accordion-group heading="Suggestions" ng-click="makeSuggestion()">
 					<div>
-						<img src="{{deckSuggestions[0].identity}}"/>
-						<section>{{deckSuggestions[0].description}}</section>
-						<div style="overflow:hidden" ng-repeat="deck in deckSuggestions"><img class="thumbnail" src="{{deck.identity}}"><a href="http://netrunnerdb.com/en/decklist/{{deck.id}}">{{deck.name}}</a></div>
+						<!--<img src="{{deckSuggestions[0].identity}}"/>
+						<section>{{deckSuggestions[0].description}}</section>-->
+						<div style="overflow:hidden" ng-repeat="deck in deckSuggestions">
+							<img class="thumbnail" ng-src="{{deck.identity}}">
+							<a href="http://netrunnerdb.com/en/decklist/{{deck.id}}">{{deck.name}}</a>
+						</div>
 					</div>
 				</accordion-group>
 			</accordion>
