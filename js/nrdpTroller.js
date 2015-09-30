@@ -1,10 +1,21 @@
 angular.module('nrdpApp', ['ui.bootstrap']);
-angular.module('nrdpApp').controller('nrdpTroller', ['$scope', 'nrdpFactory', function($scope, nrdpFactory) {
+angular.module('nrdpApp').controller('nrdpTroller', ['$scope', '$modal', 'nrdpFactory', function($scope, $modal, nrdpFactory) {
 
 	$scope.allSets = nrdpFactory.allSets;
 	$scope.allDecklists = nrdpFactory.allDecklists;
 	var userCardList = [];
 	// console.log('decklists', $scope.allDecklists);
+
+// -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+// Accordion View
+// -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+	$scope.chooseSetsOpen = true;
+	$scope.suggestionsOpen = false;
+
+// -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+// Functions creating an array of all cards a user owns based on which data packs they specify
+// -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-	
+
 	
 	$scope.setCores = function(n){
 		$scope.numberOfCores = n;
@@ -28,6 +39,9 @@ angular.module('nrdpApp').controller('nrdpTroller', ['$scope', 'nrdpFactory', fu
 			};
 		};		
 		userCardList = cards;
+		$scope.chooseSetsOpen = false;
+		$scope.makeSuggestion();
+		$scope.suggestionsOpen = true;
 		// console.log('userCardList', userCardList)
 	};
 // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
@@ -44,6 +58,8 @@ angular.module('nrdpApp').controller('nrdpTroller', ['$scope', 'nrdpFactory', fu
 // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 	$scope.makeSuggestion = function() {
+
+		// filters allDecklists array into a deckSuggestions array, a decklist object is passed if all cards appear in the user's cardlist
 		$scope.deckSuggestions = $scope.allDecklists.filter(function(decklist) {
 			var keysArray = Object.keys(decklist.cards);
 
@@ -61,7 +77,7 @@ angular.module('nrdpApp').controller('nrdpTroller', ['$scope', 'nrdpFactory', fu
 			$scope.deckSuggestions[index].cardIdList = Object.keys(decklist.cards)
 		});
 
-		// creates an array of card names with same index as card IDs
+		// creates an array of card names with same index as card IDs array
 		$scope.deckSuggestions.forEach(function(decklist, index){
 			$scope.deckSuggestions[index].cardTitleList = $scope.deckSuggestions[index].cardIdList.map(function(card){
 				var allCardsIndex = _.findIndex(nrdpFactory.allCards, {"code" : card});
@@ -70,8 +86,7 @@ angular.module('nrdpApp').controller('nrdpTroller', ['$scope', 'nrdpFactory', fu
 
 		});
 
-		console.log($scope.deckSuggestions)
-
+		// sorts deckSuggestions array of objects by greatest cardID value (newest cards released)
 		$scope.deckSuggestions.sort(function(deckA, deckB){
 			if (getMaxOfArray(Object.keys(deckA.cards)) > getMaxOfArray(Object.keys(deckB.cards))) {
 				return -1;
@@ -83,5 +98,21 @@ angular.module('nrdpApp').controller('nrdpTroller', ['$scope', 'nrdpFactory', fu
 		});
 	};
 
+// -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+// Modal displaying more information about specific cards
+// -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+	$scope.openModal = function(deckIndex, cardIndex) {
+		var allCardsIndex = _.findIndex(nrdpFactory.allCards, {"code" : cardIndex});
+		$scope.imagePlaceholder = nrdpFactory.allCards[allCardsIndex].imagesrc;
+		$scope.cardInfo = nrdpFactory.allCards[allCardsIndex]
+		console.log($scope.cardInfo)
+
+		$modal.open({
+			animation: $scope.animationsEnabled,
+			templateUrl: 'cardInfoModal.html',
+			scope: $scope
+		})
+	}
 
 }]);
