@@ -37,14 +37,16 @@ angular.module('nrdpApp').controller('nrdpTroller', ['$scope', 'nrdpFactory', fu
   		return Math.max.apply(null, numArray);
 	}
 
+
+
 // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 // Suggestion making algorithm, leaves out quantity of cards per pack
 // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
-	$scope.deckSuggestions = [{identity:"http://netrunnerdb.com/bundles/netrunnerdbcards/images/cards/en/07029.png"}];
 	$scope.makeSuggestion = function() {
 		$scope.deckSuggestions = $scope.allDecklists.filter(function(decklist) {
-			keysArray = Object.keys(decklist.cards);
+			var keysArray = Object.keys(decklist.cards);
+
 			for (var j=0; j<keysArray.length; j++) {
 				if (userCardList.indexOf(keysArray[j]) === -1) {
 					return false;
@@ -52,6 +54,23 @@ angular.module('nrdpApp').controller('nrdpTroller', ['$scope', 'nrdpFactory', fu
 			}
 			return true;
 		});
+
+
+		// creates an array of card IDs in order to attach card names to numbers
+		$scope.deckSuggestions.forEach(function(decklist, index){
+			$scope.deckSuggestions[index].cardIdList = Object.keys(decklist.cards)
+		});
+
+		// creates an array of card names with same index as card IDs
+		$scope.deckSuggestions.forEach(function(decklist, index){
+			$scope.deckSuggestions[index].cardTitleList = $scope.deckSuggestions[index].cardIdList.map(function(card){
+				var allCardsIndex = _.findIndex(nrdpFactory.allCards, {"code" : card});
+				return nrdpFactory.allCards[allCardsIndex].title;
+			});
+
+		});
+
+		console.log($scope.deckSuggestions)
 
 		$scope.deckSuggestions.sort(function(deckA, deckB){
 			if (getMaxOfArray(Object.keys(deckA.cards)) > getMaxOfArray(Object.keys(deckB.cards))) {
