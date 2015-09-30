@@ -31,12 +31,15 @@ angular.module('nrdpApp').controller('nrdpTroller', ['$scope', 'nrdpFactory', fu
 		// console.log('userCardList', userCardList)
 	};
 // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-// Suggestion making algorithm, leaves out quantity of cards per pack
+// Utility function to return max value of an array
 // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 	function getMaxOfArray(numArray) {
   		return Math.max.apply(null, numArray);
 	}
 
+// -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+// Suggestion making algorithm, leaves out quantity of cards per pack
+// -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 	$scope.deckSuggestions = [{identity:"http://netrunnerdb.com/bundles/netrunnerdbcards/images/cards/en/07029.png"}];
 	$scope.makeSuggestion = function() {
