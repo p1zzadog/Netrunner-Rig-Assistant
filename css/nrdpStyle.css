@@ -1,23 +1,48 @@
-/*Utility Classes*/
-.red {
-	background-color:red;
+html {
+	font-size:14px;
+	font-family:Helvectica, sans-serif;
 }
 
-.green {
-	background-color:green;
+body {
+	background-image:url('backgrounds/cyberspace.jpg');
+	background-size: 1920px 1080px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
 }
 
-.blue {
-	background-color:blue;
+/*Accordion Content Style*/
+.panel-heading {
+	background-color:dimgray !important;
+	color:white !important;
 }
-/*Image Classes*/
 
-.thumbnail {
-	height:auto;
-	width:auto;
-	max-height:150px;
-	max-width:150px;
-/*	float:left;*/
+.accordion-content {
+	background-color:black;
+	color:white;
+}
+
+.accordion-button {
+	background-color:dodgerblue;
+}
+
+.panel-body {
+	padding:0;
+	background-color:black;
+	color:white;
+}
+
+.panel-body a {
+	color:dodgerblue;
+}
+
+.panel-body a:hover {
+	color:deeppink;
+	text-decoration: none;
+}
+
+.panel-body a:visited {
+	color:lime;
 }
 
 /*Core Button Stuff*/
@@ -31,6 +56,7 @@
 	width:50px;
 	display:inline-block;
 	background-repeat:no-repeat;
+	background-color:white;
 }
 
 .core-btn-one {
@@ -48,3 +74,59 @@
 	background-size: 50px 50px;
 }
 
+/*Utility Classes*/
+
+.red {
+	background-color:deeppink;
+}
+
+.green {
+	background-color:lime;
+}
+
+.blue {
+	color:white;
+	background-color:dodgerblue;
+}
+
+
+.center {
+	margin:auto;
+}
+
+/*Banner Classes*/
+.banner {
+	background-color:black;
+	color:dodgerblue;
+	height:100px;
+}
+
+.banner-text {
+	background-color:black;
+	color:dodgerblue;
+	padding-left:1.5rem;
+	padding-bottom:0.5rem;
+}
+
+
+
+/*Image Classes*/
+
+.thumbnail {
+	height:auto;
+	width:auto;
+	max-height:150px;
+	max-width:150px;
+/*	float:left;*/
+}
+
+
+
+
+/*Modal Related*/
+
+.modal-image {
+	display:block;
+	max-width:250px;
+	margin:auto;
+}

@@ -48,6 +48,11 @@ angular.module('nrdpApp').controller('nrdpTroller', ['$scope', '$modal', 'nrdpFa
 		};
 	};
 
+	$scope.toggleSet = function(index) {
+		$scope.allSets[index].userSelect = !$scope.allSets[index].userSelect
+		
+	}
+
 	$scope.selectSets = function() {
 		var cards = []
 		if (allSets[2].userSelect !== true) {
