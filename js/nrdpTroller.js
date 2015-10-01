@@ -61,7 +61,19 @@ angular.module('nrdpApp').controller('nrdpTroller', ['$scope', '$modal', 'nrdpFa
 	$scope.toggleSet = function(index) {
 		$scope.allSets[index].userSelect = !$scope.allSets[index].userSelect
 
-	}
+	};
+
+	$scope.selectAll = function() {
+		$scope.allSets.forEach(function(set) {
+			set.userSelect = true;
+		});
+	};
+
+	$scope.selectNone = function() {
+		$scope.allSets.forEach(function(set) {
+			set.userSelect = false;
+		});
+	};
 
 	$scope.selectSets = function() {
 		var cards = []
@@ -113,6 +125,8 @@ angular.module('nrdpApp').controller('nrdpTroller', ['$scope', '$modal', 'nrdpFa
 			}
 			return true;
 		});
+
+		console.log($scope.deckSuggestions)
 
 
 		// creates an array of card IDs in order to attach card names to numbers
