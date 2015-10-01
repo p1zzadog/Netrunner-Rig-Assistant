@@ -149,7 +149,7 @@ body {
 /*Banner Classes*/
 
 .page-title{
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
 }
 
 .banner {
@@ -233,6 +233,7 @@ body {
 		background-size: 1920px auto;
 		background-image:url('backgrounds/cyberfeeder.jpg');
 		height:706px;
+
 	}
 
 	.banner-text h3 {
