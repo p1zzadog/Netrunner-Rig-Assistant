@@ -18,18 +18,46 @@ angular.module('nrdpApp').controller('nrdpTroller', ['$scope', '$modal', 'nrdpFa
 
 	
 	$scope.setCores = function(n){
+
+		console.log('setCores' + n)
 		$scope.numberOfCores = n;
+
+		switch(n) {
+			case 1:
+			$scope.oneCore = true;
+			$scope.twoCore = false;
+			$scope.threeCore = false;
+			break;
+
+			case 2:
+			$scope.oneCore = false;
+			$scope.twoCore = true;
+			$scope.threeCore = false;
+			break;
+
+			case 3:
+			$scope.oneCore = false;
+			$scope.twoCore = false;
+			$scope.threeCore = true;
+			break;
+
+			default:
+			$scope.oneCore = false;
+			$scope.twoCore = false;
+			$scope.threeCore = false;									
+		};
 	};
 
-	$scope.selectSets = function(numberOfCores) {
+	$scope.selectSets = function() {
 		var cards = []
 		if (allSets[2].userSelect !== true) {
+
 			$scope.selectACore=true;
+
 		}
-		// if ($scope.numberOfCores === undefined) {
-		// 	$scope.selectNumberOfCores=true;
-		// }
+
 		else {
+
 			for (var i=0; i<allSets.length; i++) {
 				if (allSets[i].userSelect === true) {
 					allSets[i].cards.forEach(function(element){
@@ -37,13 +65,12 @@ angular.module('nrdpApp').controller('nrdpTroller', ['$scope', '$modal', 'nrdpFa
 					});
 				};		
 			};
+
 			userCardList = cards;
 			$scope.chooseSetsOpen = false;
 			$scope.makeSuggestion();
 			$scope.suggestionsOpen = true;
 		};		
-
-		// console.log('userCardList', userCardList)
 	};
 // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 // Utility function to return max value of an array

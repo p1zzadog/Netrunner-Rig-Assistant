@@ -1,3 +1,17 @@
+/*Utility Classes*/
+.red {
+	background-color:red;
+}
+
+.green {
+	background-color:green;
+}
+
+.blue {
+	background-color:blue;
+}
+/*Image Classes*/
+
 .thumbnail {
 	height:auto;
 	width:auto;
@@ -5,3 +19,32 @@
 	max-width:150px;
 /*	float:left;*/
 }
+
+/*Core Button Stuff*/
+
+.core-btn-container {
+	text-align:center;
+}
+
+.core-btn {
+	height:50px;
+	width:50px;
+	display:inline-block;
+	background-repeat:no-repeat;
+}
+
+.core-btn-one {
+	background-image: url("icons/one.png");
+	background-size: 50px 50px;
+}
+
+.core-btn-two {
+	background-image: url('icons/two.png');
+	background-size: 50px 50px;
+}
+
+.core-btn-three {
+	background-image: url('icons/three.png');
+	background-size: 50px 50px;
+}
+
