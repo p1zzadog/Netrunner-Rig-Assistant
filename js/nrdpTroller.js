@@ -37,11 +37,12 @@ angular.module('nrdpApp').controller('nrdpTroller', ['$scope', '$modal', 'nrdpFa
 					});
 				};		
 			};
+			userCardList = cards;
+			$scope.chooseSetsOpen = false;
+			$scope.makeSuggestion();
+			$scope.suggestionsOpen = true;
 		};		
-		userCardList = cards;
-		$scope.chooseSetsOpen = false;
-		$scope.makeSuggestion();
-		$scope.suggestionsOpen = true;
+
 		// console.log('userCardList', userCardList)
 	};
 // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
