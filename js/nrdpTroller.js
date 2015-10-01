@@ -56,6 +56,8 @@ angular.module('nrdpApp').controller('nrdpTroller', ['$scope', '$modal', 'nrdpFa
 			$scope.twoCore = false;
 			$scope.threeCore = false;									
 		};
+
+		$scope.allSets[2].userSelect = true;
 	};
 
 	$scope.toggleSet = function(index) {
