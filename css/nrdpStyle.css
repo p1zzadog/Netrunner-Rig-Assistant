@@ -211,6 +211,10 @@ body {
 }
 
 .modal-body p, .modal-body button{
+	text-align:left;
+}
+
+.modal-body div {
 	text-align:center;
 }
 

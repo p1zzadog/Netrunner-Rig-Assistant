@@ -77,8 +77,13 @@
 					</div>
 					<div class="modal-body">
 						<img class="modal-image" ng-src="http://netrunnerdb.com{{imagePlaceholder}}">
-						<p>{{cardInfo.flavor}}</p>
+						<div><em>{{cardInfo.flavor}}</em></div>
+						<p><strong>Cost</strong>: {{cardInfo.cost}} credits</p>
+						<p><strong>Type</strong>: {{cardInfo.type}}</p>
+						<p><strong>Subtype</strong>: {{cardInfo.subtype}}</p>
 						<p><strong>Card Text</strong>: {{cardInfo.text}}</p>
+						<p><strong>Faction</strong>: {{cardInfo.faction}}</p>
+						<p><strong>Splash Cost</strong>: {{cardInfo.factioncost}}</p>
 						<p><strong>Data Pack</strong>: {{cardInfo.setname}}</p>
 						<button class="btn btn-primary modal-close-btn" ng-click="closeModal()">Close</button>
 					</div>
