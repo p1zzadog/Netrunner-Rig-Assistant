@@ -1,4 +1,4 @@
-angular.module('nrdpApp', ['ui.bootstrap']);
+angular.module('nrdpApp', ['ui.bootstrap', 'ngAnimate']);
 angular.module('nrdpApp').controller('nrdpTroller', ['$scope', '$modal', 'nrdpFactory', function($scope, $modal, nrdpFactory) {
 
 	$scope.allSets = nrdpFactory.allSets;
@@ -127,8 +127,6 @@ angular.module('nrdpApp').controller('nrdpTroller', ['$scope', '$modal', 'nrdpFa
 			}
 			return true;
 		});
-
-		console.log($scope.deckSuggestions)
 
 
 		// creates an array of card IDs in order to attach card names to numbers

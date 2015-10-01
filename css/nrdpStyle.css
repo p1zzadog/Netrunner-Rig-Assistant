@@ -147,12 +147,17 @@ body {
 }
 
 /*Banner Classes*/
+
+.page-title{
+    background-attachment: fixed;
+}
+
 .banner {
 	background-color:black;
 	background-image:url('backgrounds/blackguard.jpeg');
 	background-size: 558px auto;
     background-repeat: no-repeat;
-/*    background-attachment: fixed;*/
+    background-attachment: fixed;
     background-position: center; 
 	color:dodgerblue;
 	height:558px;
