@@ -29,12 +29,11 @@
 					</accordion-group>
 					<accordion-group heading="Suggestions" is-open="suggestionsOpen" ng-click="makeSuggestion()">
 						<div>
-							<!--<img src="{{deckSuggestions[0].identity}}"/>
-							<section>{{deckSuggestions[0].description}}</section>-->
-							<div style="overflow:hidden" ng-repeat="(deckIndex, deck) in deckSuggestions">
+							<div style="overflow:hidden" ng-repeat="(deckIndex, deck) in deckSuggestions">								
+								<h2><a href="http://netrunnerdb.com/en/decklist/{{deck.id}}">{{deck.name}}</a></h2>
 								<img class="thumbnail" ng-src="{{deck.identity}}">
-								<a href="http://netrunnerdb.com/en/decklist/{{deck.id}}">{{deck.name}}</a>
 								<div style="clear:left" ng-repeat="(cardIndex, card) in deck.cards"><a href="#" ng-click="$event.preventDefault(); openModal(deckIndex, cardIndex)">{{deck.cardTitleList[$index]}} : {{card}}</a></div>
+								<hr/>
 							</div>
 						</div>
 					</accordion-group>
