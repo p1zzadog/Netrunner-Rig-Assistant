@@ -26,9 +26,9 @@ angular.module('nrdpApp').controller('nrdpTroller', ['$scope', '$modal', 'nrdpFa
 		if (allSets[2].userSelect !== true) {
 			$scope.selectACore=true;
 		}
-		if ($scope.numberOfCores === undefined) {
-			$scope.selectNumberOfCores=true;
-		}
+		// if ($scope.numberOfCores === undefined) {
+		// 	$scope.selectNumberOfCores=true;
+		// }
 		else {
 			for (var i=0; i<allSets.length; i++) {
 				if (allSets[i].userSelect === true) {
