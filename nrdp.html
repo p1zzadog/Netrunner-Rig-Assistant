@@ -13,8 +13,8 @@
 
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-3"></div>
-			<div class="col-xs-6">
+			<div class="col-md-3"></div>
+			<div class="col-xs-12 col-md-6">
 				<accordion close-others="true">
 					<accordion-group heading="Choose your sets" is-open="chooseSetsOpen">
 						<div>Number of Core Sets</div>
@@ -40,7 +40,7 @@
 					</accordion-group>
 				</accordion>
 			</div>
-			<div class="col-xs-3"></div>
+			<div class="col-md-3"></div>
 		</div>
 	</div>
 
@@ -54,6 +54,7 @@
 			<p>{{cardInfo.text}}</p>
 			<p>{{cardInfo.setname}}</p>
 		</div>
+		<button class="btn btn-primary" ng-click="closeModal()">Close</button>
 	</script>
 
 	<script type="text/javascript" src="json/nrdb_hof.json"></script>

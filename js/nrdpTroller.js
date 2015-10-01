@@ -108,11 +108,21 @@ angular.module('nrdpApp').controller('nrdpTroller', ['$scope', '$modal', 'nrdpFa
 		$scope.cardInfo = nrdpFactory.allCards[allCardsIndex]
 		console.log($scope.cardInfo)
 
-		$modal.open({
+		var modalInstance = $modal.open({
 			animation: $scope.animationsEnabled,
 			templateUrl: 'cardInfoModal.html',
+			controller: 'ModalInstanceCtrl',
 			scope: $scope
 		})
 	}
 
+
+
 }]);
+
+angular.module('nrdpApp').controller('ModalInstanceCtrl', function ($scope, $modalInstance) {
+
+	$scope.closeModal = function () {
+    	$modalInstance.dismiss('Close');
+  	};
+});
