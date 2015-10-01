@@ -12,15 +12,15 @@ angular.module('nrdpApp').controller('nrdpTroller', ['$scope', '$modal', 'nrdpFa
 	$scope.chooseSetsOpen = true;
 	$scope.suggestionsOpen = false;
 
-	$scope.openSets = function() {
-		$scope.chooseSetsOpen = true;
-		$scope.suggestionsOpen = false;
-	}
+	// $scope.openSets = function() {
+	// 	$scope.chooseSetsOpen = true;
+	// 	$scope.suggestionsOpen = false;
+	// }
 
-	$scope.openSuggestions = function() {
-		$scope.chooseSetsOpen = false;
-		$scope.suggestionsOpen = true;
-	}
+	// $scope.openSuggestions = function() {
+	// 	$scope.chooseSetsOpen = false;
+	// 	$scope.suggestionsOpen = true;
+	// }
 
 // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 // Functions creating an array of all cards a user owns based on which data packs they specify
@@ -82,9 +82,9 @@ angular.module('nrdpApp').controller('nrdpTroller', ['$scope', '$modal', 'nrdpFa
 			};
 
 			userCardList = cards;
-			$scope.chooseSetsOpen = !$scope.chooseSetsOpen;
+			// $scope.chooseSetsOpen = !$scope.chooseSetsOpen;
 			$scope.makeSuggestion();
-			$scope.suggestionsOpen = !$scope.suggestionsOpen;
+			$scope.suggestionsOpen = true;
 		};		
 	};
 // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
