@@ -12,6 +12,16 @@ angular.module('nrdpApp').controller('nrdpTroller', ['$scope', '$modal', 'nrdpFa
 	$scope.chooseSetsOpen = true;
 	$scope.suggestionsOpen = false;
 
+	$scope.openSets = function() {
+		$scope.chooseSetsOpen = true;
+		$scope.suggestionsOpen = false;
+	}
+
+	$scope.openSuggestions = function() {
+		$scope.chooseSetsOpen = false;
+		$scope.suggestionsOpen = true;
+	}
+
 // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 // Functions creating an array of all cards a user owns based on which data packs they specify
 // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-	
@@ -50,7 +60,7 @@ angular.module('nrdpApp').controller('nrdpTroller', ['$scope', '$modal', 'nrdpFa
 
 	$scope.toggleSet = function(index) {
 		$scope.allSets[index].userSelect = !$scope.allSets[index].userSelect
-		
+
 	}
 
 	$scope.selectSets = function() {
@@ -72,9 +82,9 @@ angular.module('nrdpApp').controller('nrdpTroller', ['$scope', '$modal', 'nrdpFa
 			};
 
 			userCardList = cards;
-			$scope.chooseSetsOpen = false;
+			$scope.chooseSetsOpen = !$scope.chooseSetsOpen;
 			$scope.makeSuggestion();
-			$scope.suggestionsOpen = true;
+			$scope.suggestionsOpen = !$scope.suggestionsOpen;
 		};		
 	};
 // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-

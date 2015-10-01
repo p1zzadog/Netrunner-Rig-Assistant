@@ -12,6 +12,10 @@ body {
 }
 
 /*Accordion Content Style*/
+.panel-group {
+	margin-top:1rem;
+}
+
 .panel-heading {
 	background-color:dimgray !important;
 	color:white !important;
@@ -20,10 +24,23 @@ body {
 .accordion-content {
 	background-color:black;
 	color:white;
+/*	max-height:460px;*/
 }
 
 .accordion-button {
 	background-color:dodgerblue;
+	width:200px;
+	border:1px solid black;
+	border-collapse:collapse;
+}
+
+.accordion-button:hover{
+	background-color:lime;
+	color:white;
+}
+
+.submit-button:hover {
+	color:white;
 }
 
 .panel-body {
@@ -43,6 +60,10 @@ body {
 
 .panel-body a:visited {
 	color:lime;
+}
+
+.sets-container {
+	height:;
 }
 
 /*Core Button Stuff*/
@@ -94,11 +115,28 @@ body {
 	margin:auto;
 }
 
+.text-align-center {
+	text-align: center;
+}
+
+.color-white {
+	color:white;
+}
+
+.no-margin {
+	margin:0;
+}
+
 /*Banner Classes*/
 .banner {
 	background-color:black;
+	background-image:url('backgrounds/cyberfeeder.jpg');
+	background-size: 1920px auto;
+    background-repeat: no-repeat;
+/*    background-attachment: fixed;*/
+    background-position: center; 
 	color:dodgerblue;
-	height:100px;
+	height:720px;
 }
 
 .banner-text {
@@ -108,16 +146,18 @@ body {
 	padding-bottom:0.5rem;
 }
 
+.instructions {
+	max-width:720px;
+}
+
 
 
 /*Image Classes*/
 
 .thumbnail {
-	height:auto;
-	width:auto;
-	max-height:150px;
-	max-width:150px;
-/*	float:left;*/
+	display:block;
+	max-width:250px;
+	margin:auto;
 }
 
 
@@ -128,5 +168,5 @@ body {
 .modal-image {
 	display:block;
 	max-width:250px;
-	margin:auto;
+	margin:1rem auto;
 }

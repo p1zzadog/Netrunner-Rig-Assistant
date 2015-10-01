@@ -12,9 +12,13 @@
 <body ng-controller="nrdpTroller">
 	<header class="container-float">
 		<div class="row">
-			<div class="col-xs-12 banner">
+			<h1 class="col-xs-12 banner-text text-align-center no-margin">Netrunner Rig Market</h1>
+			<div class="col-xs-12 banner"></div>
+			<div class="col-xs-12 banner-text no-margin">
+				<hr/>
+				<h3 class="instructions center">This app offers decklist suggestions for Android:Netrunner. It is intended to give new players a taste of advanced strategies without requiring the advanced deckbuilding abilities that comes with experience. Please click the decklist title links to the excellent NetrunnerDB for decklist discussion and piloting instructions!</h3>
+				<hr/>
 			</div>
-			<h1 class="banner-text">Netrunner Rig Market</h1>
 		</div>
 	</header>
 
@@ -32,20 +36,26 @@
 								<div class="btn core-btn core-btn-three" ng-click="setCores(3)" ng-class="{blue: threeCore}"></div>
 							</div>
 							<hr/>
-							<div ng-repeat="set in allSets">
+							<div ng-repeat="set in allSets" class="text-align-center">
 								<button ng-click="toggleSet($index)" ng-class="{red: set.userSelect}" onClick="blur()" class="btn accordion-button">{{set.name}}</button>
 							</div>
-							<button class='btn btn-success' ng-click="selectSets()">Select Sets</button>
-							<span ng-show="selectACore">&emsp;Please Select Core Set</span>
-							<span ng-show="selectNumberOfCores">&emsp;Please Select Number of Core Sets</span>
+							<div class="text-align-center">
+								<button class='btn submit-button green' ng-click="selectSets()">Select Sets</button>
+							</div>
+							<div class="text-align-center">
+								<span ng-show="selectACore" class="color-white center">&emsp;Please Select Core Set</span>
+								<span ng-show="selectNumberOfCores" class="color-white center">&emsp;Please Select Number of Core Sets</span>
+							</div>
 						</div>
 					</accordion-group>
 					<accordion-group heading="Suggestions" is-open="suggestionsOpen" ng-click="makeSuggestion()">
-						<div>
+						<div class="text-align-center">
 							<div style="overflow:hidden" ng-repeat="(deckIndex, deck) in deckSuggestions">								
 								<h2><a href="http://netrunnerdb.com/en/decklist/{{deck.id}}">{{deck.name}}</a></h2>
 								<img class="thumbnail" ng-src="{{deck.identity}}">
-								<div style="clear:left" ng-repeat="(cardIndex, card) in deck.cards"><a href="#" ng-click="$event.preventDefault(); openModal(deckIndex, cardIndex)">{{deck.cardTitleList[$index]}} : {{card}}</a></div>
+								<div ng-repeat="(cardIndex, card) in deck.cards">
+									<a href="#" ng-click="$event.preventDefault(); openModal(deckIndex, cardIndex)">{{deck.cardTitleList[$index]}} : {{card}}</a>
+								</div>
 								<hr/>
 							</div>
 						</div>
