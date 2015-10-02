@@ -1,6 +1,10 @@
 html {
 	font-size:14px;
-	font-family:Helvectica, sans-serif;
+	font-family: 'Archivo Narrow', Helvectica, sans-serif;
+}
+
+html p, html div, html a, html h1, html h2, html h3 {
+	font-family: 'Archivo Narrow', Helvectica, sans-serif;
 }
 
 body {
@@ -9,6 +13,11 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
+}
+
+header, .container {
+	display:border-box;
+	padding:0 10px;
 }
 
 /*Accordion Content Style*/
@@ -80,10 +89,6 @@ body {
 
 /*.panel-body a:visited {
 	color:lime;
-}*/
-
-/*.sets-container {
-	height:;
 }*/
 
 /*Core Button Stuff*/
@@ -158,20 +163,20 @@ body {
 	background-size: 558px auto;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center; 
+    background-position: top center; 
 	color:dodgerblue;
-	height:558px;
+	height:425px;
 }
 
 .banner-text h3 {
-	font-size:1.2rem;
+	font-size:1rem;
 }
 
 .banner-text {
 	background-color:black;
 	color:dodgerblue;
-	padding-left:1.5rem;
-	padding-bottom:0.5rem;
+/*	padding-left:1.5rem;
+	padding-bottom:0.5rem;*/
 }
 
 .instructions {
@@ -232,7 +237,7 @@ body {
 	.banner {
 		background-size: 1920px auto;
 		background-image:url('backgrounds/cyberfeeder.jpg');
-		height:706px;
+		height:750px;
 
 	}
 
