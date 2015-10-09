@@ -12,7 +12,7 @@ app.get('/', function(req, res){
 	res.sendFile('nrdp.html', {root:'./public/html'});
 });
 
-var port=3000;
+var port=80;
 app.listen(port, function(){
 	console.log('server listening on port ' + port);
 });
