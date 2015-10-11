@@ -16,7 +16,7 @@ body {
 }
 
 header, .container {
-	display:border-box;
+	box-sizing:border-box;
 	padding:0 10px;
 }
 
@@ -149,6 +149,12 @@ header, .container {
 
 .no-margin {
 	margin:0;
+}
+
+.footer {
+	background-color: black;
+	color:dodgerblue;
+
 }
 
 /*Banner Classes*/
